@@ -1,0 +1,16 @@
+[
+    {
+        "domain": "testing.eda.tst.yandex.ru",
+        "expirationDate": 1780476089,
+        "hostOnly": true,
+        "httpOnly": false,
+        "name": "eda_web",
+        "path": "/",
+        "sameSite": "Lax",
+        "secure": true,
+        "session": false,
+        "storeId": "0",
+        "value": "{%22app%22:{%22analyticsSession%22:{%22id%22:%22mbg9r2nl-txach8ia0f-qcj4brw7eq-34n75fawktt%22%2C%22start%22:1748940056%2C%22update%22:1748940090}%2C%22deliveryTime%22:null%2C%22themeVariantKey%22:%22dark%22%2C%22xDeviceId%22:%22mbg7ydan-mn1esrf1q2-dl6kh6jznc-yinzhcsvutc%22%2C%22lat%22:55.70927175981996%2C%22lon%22:37.58755964640857}}",
+        "id": 26
+    }
+]
