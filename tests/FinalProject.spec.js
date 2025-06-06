@@ -87,9 +87,11 @@ test.describe('Итоговый проект', () => {
   // 3. Проверка авторизациир
   await page.locator('[aria-label="Профиль"]').click();
   await expect(page.locator('[class="njj7xdl"]')).toContainText('Юрок');
-
-  page.pause()
+  
   page.close()
 });
 
 });
+
+
+// 123
