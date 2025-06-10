@@ -26,7 +26,7 @@ export default defineConfig({
 
 test.describe('Итоговый проект', () => {
   test.beforeEach(async ({ page }) => {
-    //await page.goto('https://playwright.dev/'); - можно указать условие, которое выполняется перез запуском тестов, к примеру, октрыть страницу по урлу
+    await page.goto('https://testing.eda.tst.yandex.ru/moscow?shippingType=delivery');
   });
   test.use({ viewport: { width: 1820, height: 1000 } });
   test.use({
@@ -35,19 +35,16 @@ test.describe('Итоговый проект', () => {
   test.use({permissions: []}) // блокировка уведомлений/запросов от браузера, к примеру, доступ к гео
 
   test('[Desktop] Сброс фильтров при клике на лого в шапке - 53200', async ({ page }) => { // по мотивам тк https://tms.yandex-team.ru/projects/yandex_eats/testcases/53200
-    await page.goto('https://testing.eda.tst.yandex.ru/moscow?shippingType=delivery');
-    
-    const Pickup = page.locator('[aria-label="Самовывоз"]');
+    const Pickup = page.getByText('Самовывоз');
+    const header = page.getByRole('link', { name: 'Логотип Яндекс Еды' })
 
     await expect(Pickup).toHaveAttribute('aria-selected', 'false');
     await Pickup.click();
     await expect(Pickup).toHaveAttribute('aria-selected', 'true');
 
-    await page.getByRole('link', { name: 'Логотип Яндекс Еды' }).click();
-    await expect.soft(Pickup, 'тест кастомного сообщения об ошибке').toHaveAttribute('aria-selected', 'false'); // мягкое утверждение "expect.soft()"
+    await header.click();
+    await expect(Pickup).toHaveAttribute('aria-selected', 'false');
     
-
-
     page.close()
   
   });
@@ -63,13 +60,12 @@ test.describe('Итоговый проект', () => {
         json: mockData,
       });
     });
-  
-    // 2. Переходим на главную Еды
-    await page.goto('https://testing.eda.tst.yandex.ru/moscow?shippingType=delivery');
-    
-    // 3. Убеждаемся, что мок встал путем проверки текста в пустом лейауте
-    await expect(page.locator('[class="tumakef"]')).toContainText('Нас тут ещё нет :(');
-  
+    const text = page.getByText('Нас тут ещё нет :(');
+    const btn = page.getByRole("button", {name: 'Сообщить мне'});
+    // 2. Убеждаемся, что мок встал путем проверки текста в пустом лейауте
+    await expect(text).toContainText('Нас тут ещё нет :('); // глупая проверка -__-
+    await expect(btn).toHaveText('Сообщить мне');
+
     page.close();
   });
 
@@ -80,13 +76,13 @@ test.describe('Итоговый проект', () => {
   const fs = require('fs');
   const cookies = JSON.parse(fs.readFileSync('D:/PlayWright/Cookie/cookiesauth.json'));
   await context.addCookies(cookies);
-  
-  // 2. Переходим на страницу (куки уже применены)
-  await page.goto('https://testing.eda.tst.yandex.ru/');
 
-  // 3. Проверка авторизациир
-  await page.locator('[aria-label="Профиль"]').click();
-  await expect(page.locator('[class="njj7xdl"]')).toContainText('Юрок');
+  // 2. Проверка авторизациир
+  const profileIcon = page.locator('[aria-label="Профиль"]');
+  const profileName = page.locator('[class="njj7xdl"]');
+
+  await profileIcon.click();
+  await expect(profileName).toContainText('Юрок');
 
   page.close()
 });
