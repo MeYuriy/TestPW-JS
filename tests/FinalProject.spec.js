@@ -1,5 +1,6 @@
 import { test, expect } from '@playwright/test';
 import { defineConfig, devices } from '@playwright/test';
+import { log } from 'console';
 
 export default defineConfig({ 
   use: {
@@ -50,7 +51,6 @@ test.describe('Итоговый проект', () => {
   });
 
   // практика использования моков 
-
   test('[Desktop] Пустой ответ каталога - 53131', async ({ page }) => { // по мотивам тк https://tms.yandex-team.ru/projects/yandex_eats/testcases/53131
     // 1. Мокируем тело ответа сервера нужной ручки файлом json с пк
     const fs = require('fs');
@@ -70,7 +70,6 @@ test.describe('Итоговый проект', () => {
   });
 
   // практика подгрузки куков 
-
   test('Проверка, что пользователь авторизован (авторизация через подгрузку куки)', async ({ page, context }) => {
   // 1. Загружаем куки
   const fs = require('fs');
@@ -93,7 +92,60 @@ test('[Desktop] Выбор языка 55470', async ({ page, context }) => { //�
   const cookies = JSON.parse(fs.readFileSync('D:/PlayWright/Cookie/cookiesauth.json'));
   await context.addCookies(cookies);
 
+  const buttonLanguage = page.locator('[class="LanguageButton_name_ny358sc"]');
+  const selectLanguage = page.getByText('English');
+
+  await expect(buttonLanguage).toHaveText('Русский');
+
+  await buttonLanguage.click();
+  await selectLanguage.click();
+
+  await expect(buttonLanguage).toHaveText('English');
+
   page.close()
 });
 
+test('[Desktop] отображение баллов Плюса', async ({ page, context }) => {
+  // 1. Загружаем куки
+  const fs = require('fs');
+  const cookies = JSON.parse(fs.readFileSync('D:/PlayWright/Cookie/cookiesauth.json'));
+  await context.addCookies(cookies);
+
+  const logoUser = page.getByTestId('avatar');
+  const PlusScore = page.getByTestId('desktop-profile-popup-menu-list-item');
+
+  await logoUser.click()
+
+  await expect(PlusScore.nth(0)).toContainText('Ваши баллы плюса:');
+
+  page.close()
 });
+
+// практика пекреключения фокуса на новую вкладку 
+test('[Desktop] Переход по кнопке Партнерская сеть', async ({ page, context }) => {
+  // 1. Загружаем куки
+  const fs = require('fs');
+  const cookies = JSON.parse(fs.readFileSync('D:/PlayWright/Cookie/cookiesauth.json'));
+  await context.addCookies(cookies);
+
+  const logoUser = page.getByTestId('avatar');
+  const helpNerby = page.getByText('Партнёрская сеть');
+
+  await logoUser.click();
+  
+// нихера не понял, как переключил фокус на новую вкладку, но сработало -___-
+  await helpNerby.click(); // нажатие на кнопку, которая откроет новую вкладку
+  const newPage = await context.waitForEvent('page'); //что-то типа ожидания открытия новой вкладки
+
+// Взаимодействуйте с новой вкладкой как обычно.
+  await expect(newPage).toHaveURL(/affiliate/);
+
+  const pages = await context.pages(); // не придумал ничего лучше, чем закрыть все вкладки через цикл for (метод context.pages возвращает количество открытых вкладок)
+for (const page of pages) {
+  await page.close();
+}
+});
+
+});
+
+
