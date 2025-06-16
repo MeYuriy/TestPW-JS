@@ -87,7 +87,13 @@ test.describe('Итоговый проект', () => {
   page.close()
 });
 
+test('[Desktop] Выбор языка 55470', async ({ page, context }) => { //по мотиван тк https://tms.yandex-team.ru/projects/yandex_eats/testcases/55470
+  // 1. Загружаем куки
+  const fs = require('fs');
+  const cookies = JSON.parse(fs.readFileSync('D:/PlayWright/Cookie/cookiesauth.json'));
+  await context.addCookies(cookies);
+
+  page.close()
 });
 
-
-// Тест отправки изменений в Git
+});
