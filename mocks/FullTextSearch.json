@@ -1,0 +1,2339 @@
+{
+	"header": {
+		"text": "Найден 41 результат"
+	},
+	"blocks": [{
+		"title": "",
+		"type": "filters",
+		"payload": {
+			"filters_meta_widget": {
+				"data": [{
+					"id": "quickfilter:gruzinskaya",
+					"type": "quickfilter",
+					"slug": "gruzinskaya",
+					"payload": {
+						"state": "unselected",
+						"name": "Грузия",
+						"picture": {
+							"dark": "https://avatars.mdst.yandex.net/get-eats-catalog/1406667/7c1b6c77743e8ce27c28c7e5d1cd6c40fefa4cb2b389c9dff0e683e0e3d34251/orig",
+							"light": "https://avatars.mdst.yandex.net/get-eats-catalog/1406667/7c1b6c77743e8ce27c28c7e5d1cd6c40fefa4cb2b389c9dff0e683e0e3d34251/orig"
+						},
+						"type": "binary"
+					}
+				}, {
+					"id": "quickfilter:fast",
+					"type": "quickfilter",
+					"slug": "fast",
+					"payload": {
+						"state": "unselected",
+						"name": "Быстрые",
+						"icon": {
+							"selected": {
+								"dark": "https://avatars.mdst.yandex.net/get-eats-catalog/1406667/884f7ebe38373c9c835dbb6791d7c4712893eacd88fc843bdce396850b569229/orig",
+								"light": "https://avatars.mdst.yandex.net/get-eats-catalog/1406667/bf8c2fc8d603cef5995227b15cf3c4ca5744a84f51c5dca820aee5cc02a0ba72/orig"
+							},
+							"unselected": {
+								"dark": "https://avatars.mdst.yandex.net/get-eats-catalog/1406496/a1124cc0aa87cb5e935d293a11f169a8e32c6ffda1ab104f14fd26d981f01695/orig",
+								"light": "https://avatars.mdst.yandex.net/get-eats-catalog/1406667/884f7ebe38373c9c835dbb6791d7c4712893eacd88fc843bdce396850b569229/orig"
+							}
+						},
+						"type": "binary"
+					}
+				}, {
+					"id": "quickfilter:bakery",
+					"type": "quickfilter",
+					"slug": "bakery",
+					"payload": {
+						"state": "unselected",
+						"name": "Выпечка",
+						"picture": {
+							"dark": "https://avatars.mdst.yandex.net/get-eats-catalog/1406667/c85bf37f3a7016c4ea6d330f28fd25ce34d495c392960a2103cb4ed0db986742/orig",
+							"light": "https://avatars.mdst.yandex.net/get-eats-catalog/1406667/c85bf37f3a7016c4ea6d330f28fd25ce34d495c392960a2103cb4ed0db986742/orig"
+						},
+						"type": "binary"
+					}
+				}, {
+					"id": "quickfilter:no_surge",
+					"type": "quickfilter",
+					"slug": "no_surge",
+					"payload": {
+						"state": "unselected",
+						"name": "Без молнии",
+						"picture": {
+							"dark": "https://avatars.mdst.yandex.net/get-eats-catalog/1406496/530d743c272fffa58fe048f91933e6ee4c6c9eaa55db5dfdcc2d1bb12321128b/orig",
+							"light": "https://avatars.mdst.yandex.net/get-eats-catalog/1406496/530d743c272fffa58fe048f91933e6ee4c6c9eaa55db5dfdcc2d1bb12321128b/orig"
+						},
+						"icon": {
+							"selected": {
+								"dark": "https://avatars.mdst.yandex.net/get-eats-catalog/1406496/de522a2054c3b6a71dd79a0cbc460bdcf762dcc781a84b0fb849fb5b3b70217a/orig",
+								"light": "https://avatars.mdst.yandex.net/get-eats-catalog/1406496/de522a2054c3b6a71dd79a0cbc460bdcf762dcc781a84b0fb849fb5b3b70217a/orig"
+							},
+							"unselected": {
+								"dark": "https://avatars.mdst.yandex.net/get-eats-catalog/1406496/de522a2054c3b6a71dd79a0cbc460bdcf762dcc781a84b0fb849fb5b3b70217a/orig",
+								"light": "https://avatars.mdst.yandex.net/get-eats-catalog/1406496/de522a2054c3b6a71dd79a0cbc460bdcf762dcc781a84b0fb849fb5b3b70217a/orig"
+							}
+						},
+						"type": "binary"
+					}
+				}, {
+					"id": "quickfilter:shaurma",
+					"type": "quickfilter",
+					"slug": "shaurma",
+					"payload": {
+						"state": "unselected",
+						"name": "Шаурма",
+						"picture": {
+							"dark": "https://avatars.mdst.yandex.net/get-eats-catalog/1406667/e080e43281503005a332dd3b4b3dd27bf6b0d6bd9fd8593fc497be4c7a1b991c/orig",
+							"light": "https://avatars.mdst.yandex.net/get-eats-catalog/1406667/e080e43281503005a332dd3b4b3dd27bf6b0d6bd9fd8593fc497be4c7a1b991c/orig"
+						},
+						"icon": {
+							"selected": {
+								"dark": "https://avatars.mdst.yandex.net/get-eats-catalog/1406667/e080e43281503005a332dd3b4b3dd27bf6b0d6bd9fd8593fc497be4c7a1b991c/orig",
+								"light": "https://avatars.mdst.yandex.net/get-eats-catalog/1406667/e080e43281503005a332dd3b4b3dd27bf6b0d6bd9fd8593fc497be4c7a1b991c/orig"
+							},
+							"unselected": {
+								"dark": "https://avatars.mdst.yandex.net/get-eats-catalog/1406667/e080e43281503005a332dd3b4b3dd27bf6b0d6bd9fd8593fc497be4c7a1b991c/orig",
+								"light": "https://avatars.mdst.yandex.net/get-eats-catalog/1406667/e080e43281503005a332dd3b4b3dd27bf6b0d6bd9fd8593fc497be4c7a1b991c/orig"
+							}
+						},
+						"type": "binary"
+					}
+				}, {
+					"id": "quickfilter:burger_search",
+					"type": "quickfilter",
+					"slug": "burger_search",
+					"payload": {
+						"state": "unselected",
+						"name": "Бургеры",
+						"picture": {
+							"dark": "https://avatars.mdst.yandex.net/get-eats-catalog/1406667/59eb443d410ff5a929d3af1fd1f2cd9a4630bc06f68e3012cced7fe8fc5ab7f9/orig",
+							"light": "https://avatars.mdst.yandex.net/get-eats-catalog/1406667/59eb443d410ff5a929d3af1fd1f2cd9a4630bc06f68e3012cced7fe8fc5ab7f9/orig"
+						},
+						"icon": {
+							"selected": {
+								"dark": "https://avatars.mdst.yandex.net/get-eats-catalog/1406667/83417583bf83284a046f4480fc28573559f77847b2bf7aa87864bbdad30d3ef7/orig",
+								"light": "https://avatars.mdst.yandex.net/get-eats-catalog/1406667/2e2ccb48655963a76f79e0cdd4a486b276b9630e2cc8abc4ba8709aa09bbde51/orig"
+							},
+							"unselected": {
+								"dark": "https://avatars.mdst.yandex.net/get-eats-catalog/1406667/2e2ccb48655963a76f79e0cdd4a486b276b9630e2cc8abc4ba8709aa09bbde51/orig",
+								"light": "https://avatars.mdst.yandex.net/get-eats-catalog/1406667/83417583bf83284a046f4480fc28573559f77847b2bf7aa87864bbdad30d3ef7/orig"
+							}
+						},
+						"type": "binary"
+					}
+				}, {
+					"id": "quickfilter:burger_test",
+					"type": "quickfilter",
+					"slug": "burger_test",
+					"payload": {
+						"state": "unselected",
+						"name": "Бургеры",
+						"picture": {
+							"dark": "https://avatars.mdst.yandex.net/get-eats-catalog/1406667/59eb443d410ff5a929d3af1fd1f2cd9a4630bc06f68e3012cced7fe8fc5ab7f9/orig",
+							"light": "https://avatars.mdst.yandex.net/get-eats-catalog/1406667/59eb443d410ff5a929d3af1fd1f2cd9a4630bc06f68e3012cced7fe8fc5ab7f9/orig"
+						},
+						"icon": {
+							"selected": {
+								"dark": "https://avatars.mdst.yandex.net/get-eats-catalog/1406667/83417583bf83284a046f4480fc28573559f77847b2bf7aa87864bbdad30d3ef7/orig",
+								"light": "https://avatars.mdst.yandex.net/get-eats-catalog/1406667/2e2ccb48655963a76f79e0cdd4a486b276b9630e2cc8abc4ba8709aa09bbde51/orig"
+							},
+							"unselected": {
+								"dark": "https://avatars.mdst.yandex.net/get-eats-catalog/1406667/2e2ccb48655963a76f79e0cdd4a486b276b9630e2cc8abc4ba8709aa09bbde51/orig",
+								"light": "https://avatars.mdst.yandex.net/get-eats-catalog/1406667/83417583bf83284a046f4480fc28573559f77847b2bf7aa87864bbdad30d3ef7/orig"
+							}
+						},
+						"type": "binary"
+					}
+				}, {
+					"id": "quickfilter:shop",
+					"type": "quickfilter",
+					"slug": "shop",
+					"payload": {
+						"state": "unselected",
+						"name": "Магазины",
+						"type": "binary"
+					}
+				}, {
+					"id": "quickfilter:coffee",
+					"type": "quickfilter",
+					"slug": "coffee",
+					"payload": {
+						"state": "unselected",
+						"name": "Кофе",
+						"picture": {
+							"dark": "https://avatars.mdst.yandex.net/get-eats-catalog/1406667/ac883de1245e3cd2483978cfac93ee9c56f144b4d33c7573d1a92e8578847e61/orig",
+							"light": "https://avatars.mdst.yandex.net/get-eats-catalog/1406667/ac883de1245e3cd2483978cfac93ee9c56f144b4d33c7573d1a92e8578847e61/orig"
+						},
+						"icon": {
+							"selected": {
+								"dark": "https://avatars.mdst.yandex.net/get-eats-catalog/1406667/ac883de1245e3cd2483978cfac93ee9c56f144b4d33c7573d1a92e8578847e61/orig",
+								"light": "https://avatars.mdst.yandex.net/get-eats-catalog/1406667/ac883de1245e3cd2483978cfac93ee9c56f144b4d33c7573d1a92e8578847e61/orig"
+							},
+							"unselected": {
+								"dark": "https://avatars.mdst.yandex.net/get-eats-catalog/1406667/ac883de1245e3cd2483978cfac93ee9c56f144b4d33c7573d1a92e8578847e61/orig",
+								"light": "https://avatars.mdst.yandex.net/get-eats-catalog/1406667/ac883de1245e3cd2483978cfac93ee9c56f144b4d33c7573d1a92e8578847e61/orig"
+							}
+						},
+						"type": "binary"
+					}
+				}, {
+					"id": "quickfilter:foodmall",
+					"type": "quickfilter",
+					"slug": "foodmall",
+					"payload": {
+						"state": "unselected",
+						"name": "Фуд-моллы",
+						"picture": {
+							"dark": "https://avatars.mdst.yandex.net/get-eats-catalog/1406667/c8e28b389026b38b84efb49b812e5c15e9f2558b318158e2a1d57c2943eb808f/orig",
+							"light": "https://avatars.mdst.yandex.net/get-eats-catalog/1406667/c8e28b389026b38b84efb49b812e5c15e9f2558b318158e2a1d57c2943eb808f/orig"
+						},
+						"icon": {
+							"selected": {
+								"dark": "https://avatars.mdst.yandex.net/get-eats-catalog/1406667/c8e28b389026b38b84efb49b812e5c15e9f2558b318158e2a1d57c2943eb808f/orig",
+								"light": "https://avatars.mdst.yandex.net/get-eats-catalog/1406667/c8e28b389026b38b84efb49b812e5c15e9f2558b318158e2a1d57c2943eb808f/orig"
+							},
+							"unselected": {
+								"dark": "https://avatars.mdst.yandex.net/get-eats-catalog/1406667/c8e28b389026b38b84efb49b812e5c15e9f2558b318158e2a1d57c2943eb808f/orig",
+								"light": "https://avatars.mdst.yandex.net/get-eats-catalog/1406667/c8e28b389026b38b84efb49b812e5c15e9f2558b318158e2a1d57c2943eb808f/orig"
+							}
+						},
+						"type": "binary"
+					}
+				}, {
+					"id": "quickfilter:search_restaurant",
+					"type": "quickfilter",
+					"slug": "search_restaurant",
+					"payload": {
+						"state": "unselected",
+						"name": "Рестораны",
+						"type": "binary"
+					}
+				}, {
+					"id": "all:all",
+					"type": "all",
+					"slug": "all",
+					"payload": {
+						"state": "unselected",
+						"icon": {
+							"selected": {
+								"dark": "https://avatars.mdst.yandex.net/get-eats-catalog/1406496/af0f28af54891c3a92d3143346040fa9d171d4e75fcbe8c4bc5dea3600633722/orig",
+								"light": "https://avatars.mdst.yandex.net/get-eats-catalog/1406667/bedb50e285e6dc3c293ceaaf761daeb0670ca18a2332b6b58761f2684bed9988/orig"
+							},
+							"unselected": {
+								"dark": "https://avatars.mdst.yandex.net/get-eats-catalog/1406496/af0f28af54891c3a92d3143346040fa9d171d4e75fcbe8c4bc5dea3600633722/orig",
+								"light": "https://avatars.mdst.yandex.net/get-eats-catalog/1406667/bedb50e285e6dc3c293ceaaf761daeb0670ca18a2332b6b58761f2684bed9988/orig"
+							}
+						},
+						"bottom_sheet_link": {
+							"main_slug": "all"
+						},
+						"type": "static"
+					}
+				}, {
+					"id": "group:bottom_sheet_category_button",
+					"type": "group",
+					"slug": "bottom_sheet_category_button",
+					"payload": {
+						"state": "unselected",
+						"name": "Категория",
+						"icon": {
+							"selected": {
+								"dark": "https://avatars.mdst.yandex.net/get-eats-catalog/1406496/9f9225a4bee99fb47937985c5966b86715e7a1e0ce2069414bccf1eb63a8b181/orig",
+								"light": "https://avatars.mdst.yandex.net/get-eats-catalog/1406496/9f9225a4bee99fb47937985c5966b86715e7a1e0ce2069414bccf1eb63a8b181/orig"
+							},
+							"unselected": {
+								"dark": "https://avatars.mdst.yandex.net/get-eats-catalog/1406496/9f9225a4bee99fb47937985c5966b86715e7a1e0ce2069414bccf1eb63a8b181/orig",
+								"light": "https://avatars.mdst.yandex.net/get-eats-catalog/1406496/9f9225a4bee99fb47937985c5966b86715e7a1e0ce2069414bccf1eb63a8b181/orig"
+							}
+						},
+						"bottom_sheet_link": {
+							"main_slug": "bottom_sheet_category",
+							"block_slug": "bottom_sheet_category_block",
+							"group_slug": "bottom_sheet_category_group"
+						},
+						"type": "dynamic"
+					}
+				}],
+				"bottom_sheets": [{
+					"slug": "bottom_sheet_category",
+					"layout": [{
+						"slug": "bottom_sheet_category_block",
+						"type": "filters",
+						"payload": {
+							"groups": [{
+								"slug": "bottom_sheet_category_group",
+								"style": "flex",
+								"filters": ["quickfilter:burger_test", "quickfilter:burger_search", "quickfilter:shaurma", "quickfilter:coffee", "quickfilter:gruzinskaya", "quickfilter:foodmall", "quickfilter:bakery"],
+								"payload": {
+									"choice": "single",
+									"style": "flex"
+								}
+							}]
+						}
+					}]
+				}, {
+					"slug": "all",
+					"layout": [{
+						"slug": "category_block",
+						"name": "Категория",
+						"type": "filters",
+						"payload": {
+							"groups": [{
+								"slug": "category",
+								"style": "flex",
+								"filters": ["quickfilter:search_restaurant", "quickfilter:shop"],
+								"payload": {
+									"choice": "single",
+									"style": "flex"
+								}
+							}]
+						}
+					}, {
+						"slug": "delivery_block",
+						"name": "Доставка",
+						"type": "filters",
+						"payload": {
+							"groups": [{
+								"slug": "delivery",
+								"style": "flex",
+								"filters": ["quickfilter:fast", "quickfilter:no_surge"],
+								"payload": {
+									"choice": "multiple",
+									"style": "flex"
+								}
+							}]
+						}
+					}]
+				}],
+				"list": ["all:all", "quickfilter:search_restaurant", "quickfilter:shop", "quickfilter:fast", "quickfilter:no_surge", "group:bottom_sheet_category_button"],
+				"grid": [
+					["all:all", "quickfilter:search_restaurant", "quickfilter:shop", "quickfilter:fast", "quickfilter:no_surge", "group:bottom_sheet_category_button"],
+					[]
+				],
+				"style": {
+					"width": 150
+				},
+				"result_message": {
+					"state": "found",
+					"message": "Найден 41 результат",
+					"button_message": ""
+				}
+			}
+		}
+	}, {
+		"title": "",
+		"type": "places",
+		"payload": [{
+			"slug": "azbukavkusa_komsomolskij_prospekt_4",
+			"title": "Азбука вкуса",
+			"brand": {
+				"slug": "azbukavkusa"
+			},
+			"business": "shop",
+			"available": true,
+			"picture": {
+				"url": "https://eda.yandex/images/3682162/7f2d73cf29ceb4bb829374d2ac48ef36.png",
+				"ratio": 1.33
+			},
+			"rating": {
+				"icon": {
+					"color": {
+						"dark": "#8A8784",
+						"light": "#C4C2BE"
+					},
+					"url": "asset://rating_star"
+				},
+				"text": "Мало оценок"
+			},
+			"items": [{
+				"id": "6121eef3-7bcd-4451-ad92-44e6bb6ff2cf",
+				"title": "Вода минеральная Рычал Су газированная",
+				"price": "136 ₽",
+				"decimal_price": "136",
+				"weight": "500 мл",
+				"parent_category_id": "",
+				"search_type": "menu",
+				"gallery": [{
+					"url": "https://avatars.mdst.yandex.net/get-eda/65351/a3b69d28d45382c58584ffbce6d781e4/{w}x{h}",
+					"scale": "aspect_fill"
+				}],
+				"public_id": "6121eef3-7bcd-4451-ad92-44e6bb6ff2cf",
+				"adult": false,
+				"badges": [],
+				"in_stock": 276,
+				"shipping_type": "all"
+			}, {
+				"id": "66338610-b23a-4965-8ceb-44c50f5a237f",
+				"title": "Вода питьевая Черноголовка негазированная, 5 л Россия",
+				"price": "129 ₽",
+				"decimal_price": "129",
+				"weight": "5 кг",
+				"parent_category_id": "",
+				"search_type": "menu",
+				"gallery": [{
+					"url": "https://avatars.mdst.yandex.net/get-eda/65351/0885d926c0cc25e4574de4f803af2eaa/{w}x{h}",
+					"scale": "aspect_fill"
+				}],
+				"public_id": "66338610-b23a-4965-8ceb-44c50f5a237f",
+				"adult": false,
+				"badges": [],
+				"in_stock": 107,
+				"shipping_type": "all"
+			}, {
+				"id": "1b9f62be-739d-48f1-a0b9-1fe51ddeaf4d",
+				"title": "Вода минеральная негазированная \"Архыз\" Vita 5 л, Россия",
+				"price": "172 ₽",
+				"decimal_price": "172",
+				"weight": "5 кг",
+				"parent_category_id": "",
+				"search_type": "menu",
+				"gallery": [{
+					"url": "https://avatars.mdst.yandex.net/get-eda/65351/aa37546397d18da4773e8847c0768cbb/{w}x{h}",
+					"scale": "aspect_fill"
+				}],
+				"public_id": "1b9f62be-739d-48f1-a0b9-1fe51ddeaf4d",
+				"adult": false,
+				"badges": [],
+				"in_stock": 23,
+				"shipping_type": "all"
+			}, {
+				"id": "b7240bb2-5ab1-42a3-97cc-d5f1f1edfc4f",
+				"title": "Вода глубинная Baikal430, байкальская природная, негазированная, 0,45 л Россия",
+				"price": "84.2 ₽",
+				"decimal_price": "84.2",
+				"weight": "450 г",
+				"parent_category_id": "",
+				"search_type": "menu",
+				"gallery": [{
+					"url": "https://avatars.mdst.yandex.net/get-eda/65351/889db4503110d497e8075f4cc6b70a76/{w}x{h}",
+					"scale": "aspect_fill"
+				}],
+				"public_id": "b7240bb2-5ab1-42a3-97cc-d5f1f1edfc4f",
+				"adult": false,
+				"badges": [],
+				"in_stock": 404,
+				"shipping_type": "all"
+			}, {
+				"id": "8a0b05b1-f003-4373-a5a8-b3a5417ffffc",
+				"title": "Вода минеральная газированная, «Боржоми», 0.5 л, стеклянная бутылка, Грузия",
+				"price": "150 ₽",
+				"decimal_price": "150",
+				"weight": "500 г",
+				"parent_category_id": "",
+				"search_type": "menu",
+				"gallery": [{
+					"url": "https://avatars.mdst.yandex.net/get-eda/65351/7bb9a76a6b5bee0dfc470127df6667b6/{w}x{h}",
+					"scale": "aspect_fill"
+				}],
+				"public_id": "8a0b05b1-f003-4373-a5a8-b3a5417ffffc",
+				"adult": false,
+				"badges": [],
+				"in_stock": 158,
+				"shipping_type": "all"
+			}],
+			"show_more": {
+				"title": "Показать еще"
+			},
+			"available_to": "2025-06-18T00:00:00+03:00",
+			"delivery": {
+				"text": "60 – 90 мин"
+			},
+			"analytics": "CgQIF0gCCicIFBojYXpidWthdmt1c2Ffa29tc29tb2xza2lqX3Byb3NwZWt0XzQKDwhpGgthemJ1a2F2a3VzYQobCBUaF9CQ0LfQsdGD0LrQsCDQstC60YPRgdCwCgQIDygECgUIFhIBAQoFCBMSAQAKBQghEgEACgUIIhIBBQoCCEkKRghIggEfChFkZWxpdmVyeV9kdXJhdGlvbhIKMeKAkzEuNSDRh4IBHwoGcmF0aW5nEhXQnNCw0LvQviDQvtGG0LXQvdC+0LoKGAhjGhQ2MOKAieKAk+KAiTkwINC80LjQvQ==",
+			"upper_meta": [{
+				"payload": {
+					"icon": {
+						"type": "colored_icon",
+						"icon": {
+							"color": {
+								"light": "#21201F",
+								"dark": "#E0DEDA"
+							},
+							"url": "asset://rating_star"
+						}
+					},
+					"text": {
+						"value": "Мало оценок",
+						"color": {
+							"light": "#21201F",
+							"dark": "#F3F0E7"
+						}
+					},
+					"type": "info"
+				}
+			}],
+			"lower_meta": [{
+				"payload": {
+					"text": {
+						"value": "1–1.5 ч",
+						"color": {
+							"light": "#999588",
+							"dark": "#F3F0E7"
+						}
+					},
+					"type": "info"
+				}
+			}]
+		}, {
+			"slug": "vkusvill_leninskij_prospekt_37a_cbyvl",
+			"title": "ВкусВилл Экспресс",
+			"brand": {
+				"slug": "vkusvill_lrjhs65408"
+			},
+			"business": "shop",
+			"available": true,
+			"picture": {
+				"url": "https://eda.yandex/images/3781088/bee489683a8419721579bfc66929aba9.png",
+				"ratio": 1.33
+			},
+			"rating": {
+				"icon": {
+					"color": {
+						"dark": "#8A8784",
+						"light": "#C4C2BE"
+					},
+					"url": "asset://rating_star"
+				},
+				"text": "Мало оценок"
+			},
+			"items": [{
+				"id": "3393752a-835f-4b4c-b62a-f6c70517d41b",
+				"title": "Вода минеральная природная питьевая столовая Vita Архыз газированная пэт 1,5 л",
+				"price": "65 ₽",
+				"decimal_price": "65",
+				"weight": "1.62 кг",
+				"parent_category_id": "",
+				"search_type": "menu",
+				"gallery": [{
+					"url": "https://avatars.mds.yandex.net/get-eda-testing/16375285/e50be0a79ac95b1680d07f17cb3ed255/{w}x{h}",
+					"scale": "aspect_fill"
+				}, {
+					"url": "https://avatars.mds.yandex.net/get-eda-testing/15263514/470959edc26368ae851624e2b0a2a26a/{w}x{h}",
+					"scale": "aspect_fill"
+				}, {
+					"url": "https://avatars.mds.yandex.net/get-eda-testing/15263514/c4e6c07e8f12c29041c196b7c7ba1bfc/{w}x{h}",
+					"scale": "aspect_fill"
+				}, {
+					"url": "https://avatars.mds.yandex.net/get-eda-testing/16050377/946376e498924c2fa9f4448c0234cc91/{w}x{h}",
+					"scale": "aspect_fill"
+				}],
+				"public_id": "3393752a-835f-4b4c-b62a-f6c70517d41b",
+				"adult": false,
+				"badges": [],
+				"in_stock": 5,
+				"shipping_type": "all"
+			}, {
+				"id": "dc8ee86e-c38c-4a91-b1c3-85d037f4a17d",
+				"title": "Вода питьевая детская Святой Источник Светлячок негазированная 1,5 л",
+				"price": "65 ₽",
+				"decimal_price": "65",
+				"weight": "1.5 кг",
+				"parent_category_id": "",
+				"search_type": "menu",
+				"gallery": [{
+					"url": "https://avatars.mds.yandex.net/get-eda-testing/15263514/334346a242c8e524ef1c69e8ddda4eef/{w}x{h}",
+					"scale": "aspect_fill"
+				}, {
+					"url": "https://avatars.mds.yandex.net/get-eda-testing/16255075/eb72d6c83f574007dd0219f44e120be3/{w}x{h}",
+					"scale": "aspect_fill"
+				}, {
+					"url": "https://avatars.mds.yandex.net/get-eda-testing/15263514/1f2a51cfd9337842788ad518081d8b55/{w}x{h}",
+					"scale": "aspect_fill"
+				}, {
+					"url": "https://avatars.mds.yandex.net/get-eda-testing/15263514/2275fdce09c105acb4eb0963aad9c189/{w}x{h}",
+					"scale": "aspect_fill"
+				}, {
+					"url": "https://avatars.mds.yandex.net/get-eda-testing/16255075/32cb122e685a91ed9a95e8f3baafbd26/{w}x{h}",
+					"scale": "aspect_fill"
+				}, {
+					"url": "https://avatars.mds.yandex.net/get-eda-testing/15058190/d0e5f13ea2f22014bae1d17571492580/{w}x{h}",
+					"scale": "aspect_fill"
+				}, {
+					"url": "https://avatars.mds.yandex.net/get-eda-testing/15263514/2ed1c8c84ca4653862f1c10d5ad259ea/{w}x{h}",
+					"scale": "aspect_fill"
+				}, {
+					"url": "https://avatars.mds.yandex.net/get-eda-testing/15058190/8e47ca006d7e9bb8bc476dae78ee82b2/{w}x{h}",
+					"scale": "aspect_fill"
+				}],
+				"public_id": "dc8ee86e-c38c-4a91-b1c3-85d037f4a17d",
+				"adult": false,
+				"badges": [],
+				"in_stock": 5,
+				"shipping_type": "all"
+			}, {
+				"id": "ee1e1b02-170d-4d3a-9e62-0372b3c3714d",
+				"title": "Вода питьевая детская Святой Источник Светлячок негазированная 5 л",
+				"price": "155 ₽",
+				"decimal_price": "155",
+				"weight": "5 кг",
+				"parent_category_id": "",
+				"search_type": "menu",
+				"gallery": [{
+					"url": "https://avatars.mds.yandex.net/get-eda-testing/15058190/0027d6e9f96cf3bd84183735b1bae84e/{w}x{h}",
+					"scale": "aspect_fill"
+				}, {
+					"url": "https://avatars.mds.yandex.net/get-eda-testing/16050377/0c8812d590f10c1fcf05f8662beb656c/{w}x{h}",
+					"scale": "aspect_fill"
+				}, {
+					"url": "https://avatars.mds.yandex.net/get-eda-testing/16050377/c808e3c174011379c71c1224158df18c/{w}x{h}",
+					"scale": "aspect_fill"
+				}, {
+					"url": "https://avatars.mds.yandex.net/get-eda-testing/15263514/592c559a8f59c8451b2788c57b5e72ef/{w}x{h}",
+					"scale": "aspect_fill"
+				}, {
+					"url": "https://avatars.mds.yandex.net/get-eda-testing/16050377/e0528bedf7b7ada80bda4a9c0a0068e1/{w}x{h}",
+					"scale": "aspect_fill"
+				}, {
+					"url": "https://avatars.mds.yandex.net/get-eda-testing/15263514/d6100265e5f8c0e16e0a07705954772f/{w}x{h}",
+					"scale": "aspect_fill"
+				}, {
+					"url": "https://avatars.mds.yandex.net/get-eda-testing/16255075/36f3cfe72b87497ecad513623f3f4ac7/{w}x{h}",
+					"scale": "aspect_fill"
+				}],
+				"public_id": "ee1e1b02-170d-4d3a-9e62-0372b3c3714d",
+				"adult": false,
+				"badges": [],
+				"in_stock": 5,
+				"shipping_type": "all"
+			}, {
+				"id": "dc0200cf-3b6c-4447-bfa6-0cd175dac3f1",
+				"title": "Вода кокосовая Chaokoh ж/б 350 мл",
+				"price": "245 ₽",
+				"decimal_price": "245",
+				"weight": "350 г",
+				"parent_category_id": "",
+				"search_type": "menu",
+				"gallery": [{
+					"url": "https://avatars.mds.yandex.net/get-eda-testing/16255075/0fc9a6056f54af90900da01a1aed99ae/{w}x{h}",
+					"scale": "aspect_fill"
+				}, {
+					"url": "https://avatars.mds.yandex.net/get-eda-testing/15058190/13f26aa68009086efa7c86e9f4affb29/{w}x{h}",
+					"scale": "aspect_fill"
+				}],
+				"public_id": "dc0200cf-3b6c-4447-bfa6-0cd175dac3f1",
+				"adult": false,
+				"badges": [{
+					"payload": {
+						"text": {
+							"value": "ОСТАЛОСЬ 3",
+							"color": {
+								"dark": "#FFFFFF",
+								"light": "#FFFFFF"
+							}
+						},
+						"background_color": {
+							"dark": "#000000",
+							"light": "#000000"
+						},
+						"type": "text_based"
+					},
+					"meta": {
+						"type": "product_promo"
+					}
+				}],
+				"in_stock": 3,
+				"shipping_type": "all"
+			}, {
+				"id": "372db538-a9cf-45cb-8f68-1b2b1d69a974",
+				"title": "Вода питьевая газированная, 500 мл",
+				"price": "36 ₽",
+				"decimal_price": "36",
+				"weight": "500 г",
+				"parent_category_id": "",
+				"search_type": "menu",
+				"gallery": [{
+					"url": "https://avatars.mds.yandex.net/get-eda-testing/16050377/c95b791f8d27f4c66cbe1fb28e343eab/{w}x{h}",
+					"scale": "aspect_fill"
+				}],
+				"public_id": "372db538-a9cf-45cb-8f68-1b2b1d69a974",
+				"adult": false,
+				"badges": [],
+				"in_stock": 5,
+				"shipping_type": "all"
+			}],
+			"show_more": {
+				"title": "Показать еще"
+			},
+			"available_to": "2025-06-18T00:00:00+03:00",
+			"delivery": {
+				"text": "10 – 20 мин"
+			},
+			"analytics": "CgQIF0gCCikIFBoldmt1c3ZpbGxfbGVuaW5za2lqX3Byb3NwZWt0XzM3YV9jYnl2bAoXCGkaE3ZrdXN2aWxsX2xyamhzNjU0MDgKJQgVGiHQktC60YPRgdCS0LjQu9C7INCt0LrRgdC/0YDQtdGB0YEKBAgPKAQKBQgWEgEBCgUIExIBAAoFCCESAQEKBQgiEgEFCgIISQqBAQhIggEWCghtaW5fY2FydBIK0L7RgiAwIOKCvYIBGwoMZGVsaXZlcnlfZmVlEgsx4oCTMTAwIOKCvYIBIwoRZGVsaXZlcnlfZHVyYXRpb24SDjEw4oCTMjAg0LzQuNC9ggEfCgZyYXRpbmcSFdCc0LDQu9C+INC+0YbQtdC90L7QugoYCGMaFDEw4oCJ4oCT4oCJMjAg0LzQuNC9",
+			"upper_meta": [{
+				"payload": {
+					"icon": {
+						"type": "colored_icon",
+						"icon": {
+							"color": {
+								"light": "#21201F",
+								"dark": "#E0DEDA"
+							},
+							"url": "asset://rating_star"
+						}
+					},
+					"text": {
+						"value": "Мало оценок",
+						"color": {
+							"light": "#21201F",
+							"dark": "#F3F0E7"
+						}
+					},
+					"type": "info"
+				}
+			}],
+			"lower_meta": [{
+				"payload": {
+					"text": {
+						"value": "10–20 мин",
+						"color": {
+							"light": "#999588",
+							"dark": "#F3F0E7"
+						}
+					},
+					"type": "info"
+				}
+			}, {
+				"payload": {
+					"text": {
+						"value": "·",
+						"color": {
+							"light": "#9E9B98",
+							"dark": "#F3F0E7"
+						}
+					},
+					"type": "separator"
+				}
+			}, {
+				"payload": {
+					"text": {
+						"value": "1–100 ₽",
+						"color": {
+							"light": "#999588",
+							"dark": "#F3F0E7"
+						}
+					},
+					"type": "info"
+				}
+			}, {
+				"payload": {
+					"text": {
+						"value": "·",
+						"color": {
+							"light": "#9E9B98",
+							"dark": "#F3F0E7"
+						}
+					},
+					"type": "separator"
+				}
+			}, {
+				"payload": {
+					"text": {
+						"value": "от 0 ₽",
+						"color": {
+							"light": "#999588",
+							"dark": "#F3F0E7"
+						}
+					},
+					"type": "info"
+				}
+			}]
+		}]
+	}, {
+		"title": "",
+		"type": "places",
+		"payload": [{
+			"slug": "",
+			"title": "Вода",
+			"brand": {
+				"slug": ""
+			},
+			"business": "restaurant",
+			"available": false,
+			"picture": {
+				"url": "https://avatars.mds.yandex.net/get-altay/1632633/2a00000169081564da6cf4165083373ecd48/XL_height",
+				"ratio": 1.33
+			},
+			"tags": [],
+			"price_category": {
+				"title": ""
+			},
+			"items": [],
+			"delivery": {
+				"text": ""
+			},
+			"analytics": "CgQIF0gCCgQIFBoACgQIaRoACgwIFRoI0JLQvtC00LAKBQgWEgEACgUIExIBAAoFCCESAQAKBQgiEgEACgIISQoZCEiCARQKCGRpc3RhbmNlEgg2LDUg0LrQvAoECGMaAAoFCG8aATA=",
+			"lower_meta": [{
+				"payload": {
+					"text": {
+						"value": "6,5 км",
+						"color": {
+							"light": "#999588",
+							"dark": "#F3F0E7"
+						}
+					},
+					"type": "info"
+				}
+			}],
+			"chips": [{
+				"payload": {
+					"text": {
+						"value": "Куда сходить",
+						"color": {
+							"dark": "#0596FA",
+							"light": "#0596FA"
+						}
+					},
+					"background_color": {
+						"dark": "#0596FA1A",
+						"light": "#0596FA1A"
+					},
+					"type": "text_based"
+				}
+			}],
+			"link": {
+				"app": "eda.yandex://offline_place/156a5f1c1acc4cd2b99c78775a72ca35",
+				"web": "eda.yandex://offline_place/156a5f1c1acc4cd2b99c78775a72ca35"
+			}
+		}]
+	}, {
+		"title": "",
+		"type": "places",
+		"payload": [{
+			"slug": "lenta_test152227_oxotnyj_ryad_1",
+			"title": "Лента 2 (тест интеграции)",
+			"brand": {
+				"slug": "lenta_2_test_integracii"
+			},
+			"business": "shop",
+			"available": false,
+			"picture": {
+				"url": "/images/3925/39f7800cce35b66f24551e0307fbe178-{w}x{h}.jpeg",
+				"ratio": 1.33
+			},
+			"rating": {
+				"icon": {
+					"color": {
+						"dark": "#8A8784",
+						"light": "#C4C2BE"
+					},
+					"url": "asset://rating_star"
+				},
+				"text": "Мало оценок"
+			},
+			"items": [{
+				"id": "ccf3101b-8f25-42bd-b5c7-4e3456813b47",
+				"title": "Вода питьевая ДОБРЫЙ артезианская с соком Нежная клубника и базилик ПЭТ",
+				"price": "80 ₽",
+				"decimal_price": "80",
+				"weight": "900 г",
+				"parent_category_id": "",
+				"search_type": "menu",
+				"public_id": "ccf3101b-8f25-42bd-b5c7-4e3456813b47",
+				"adult": false,
+				"badges": [],
+				"in_stock": 99999,
+				"shipping_type": "all"
+			}, {
+				"id": "d3376aa1-55e2-4e7f-87bd-a5f0e6817bed",
+				"title": "Напиток безалкогольный ЧТМ fantasy brands на основе кокосовой воды с ароматом манго ст.",
+				"price": "110 ₽",
+				"decimal_price": "110",
+				"weight": "280 г",
+				"parent_category_id": "",
+				"search_type": "menu",
+				"public_id": "d3376aa1-55e2-4e7f-87bd-a5f0e6817bed",
+				"adult": false,
+				"badges": [],
+				"in_stock": 99999,
+				"shipping_type": "all"
+			}, {
+				"id": "aacd6b76-7447-4310-a9fc-b2a1c2b74bca",
+				"title": "Вода питьевая LEGEND OF BAIKAL негазированная, 0.33л",
+				"price": "53 ₽",
+				"decimal_price": "53",
+				"weight": "330 г",
+				"parent_category_id": "",
+				"search_type": "menu",
+				"public_id": "aacd6b76-7447-4310-a9fc-b2a1c2b74bca",
+				"adult": false,
+				"badges": [],
+				"in_stock": 99999,
+				"shipping_type": "all"
+			}, {
+				"id": "09b953d6-4240-4493-8bd8-d2736a152ce7",
+				"title": "Вода питьевая СВЯТОЙ ИСТОЧНИК со вкусом лимона и мяты газированная, 0.33л",
+				"price": "41 ₽",
+				"decimal_price": "41",
+				"weight": "330 г",
+				"parent_category_id": "",
+				"search_type": "menu",
+				"public_id": "09b953d6-4240-4493-8bd8-d2736a152ce7",
+				"adult": false,
+				"badges": [],
+				"in_stock": 99999,
+				"shipping_type": "all"
+			}, {
+				"id": "f55455d4-8948-4a5c-8a3d-a433bf9abf4d",
+				"title": "Вода питьевая SPRING Сибирский бор артезианская 1-й категории негазированная, 0.5л",
+				"price": "23 ₽",
+				"decimal_price": "23",
+				"weight": "500 г",
+				"parent_category_id": "",
+				"search_type": "menu",
+				"public_id": "f55455d4-8948-4a5c-8a3d-a433bf9abf4d",
+				"adult": false,
+				"badges": [],
+				"in_stock": 99999,
+				"shipping_type": "all"
+			}],
+			"show_more": {
+				"title": "Показать еще"
+			},
+			"delivery": {
+				"text": "Закрыто"
+			},
+			"analytics": "CgQIF0gCCiMIFBofbGVudGFfdGVzdDE1MjIyN19veG90bnlqX3J5YWRfMQobCGkaF2xlbnRhXzJfdGVzdF9pbnRlZ3JhY2lpCjAIFRos0JvQtdC90YLQsCAyICjRgtC10YHRgiDQuNC90YLQtdCz0YDQsNGG0LjQuCkKBAgPKAQKBQgWEgEACgUIExIBAAoFCCESAQAKBQgiEgEFCgIISQpHCEiCASAKDmNsb3NlZF93YXJuaW5nEg7Ql9Cw0LrRgNGL0YLQvoIBHwoGcmF0aW5nEhXQnNCw0LvQviDQvtGG0LXQvdC+0LoKEghjGg7Ql9Cw0LrRgNGL0YLQvg==",
+			"upper_meta": [{
+				"payload": {
+					"icon": {
+						"type": "colored_icon",
+						"icon": {
+							"color": {
+								"light": "#21201F",
+								"dark": "#E0DEDA"
+							},
+							"url": "asset://rating_star"
+						}
+					},
+					"text": {
+						"value": "Мало оценок",
+						"color": {
+							"light": "#21201F",
+							"dark": "#F3F0E7"
+						}
+					},
+					"type": "info"
+				}
+			}],
+			"lower_meta": [{
+				"payload": {
+					"text": {
+						"value": "Закрыто",
+						"color": {
+							"light": "#FA3E2C",
+							"dark": "#FA3E2C"
+						}
+					},
+					"type": "info"
+				}
+			}]
+		}, {
+			"slug": "miratorg_bolshaya_polyanka_1_3_mxaru",
+			"title": "Мираторг",
+			"brand": {
+				"slug": "miratorg81020"
+			},
+			"business": "shop",
+			"available": true,
+			"picture": {
+				"url": "https://eda.yandex/images/3595513/d48b80e498cc0ab389a976e110d4e69f.png",
+				"ratio": 1.33
+			},
+			"rating": {
+				"icon": {
+					"color": {
+						"dark": "#8A8784",
+						"light": "#C4C2BE"
+					},
+					"url": "asset://rating_star"
+				},
+				"text": "Мало оценок"
+			},
+			"items": [{
+				"id": "a203f594-2231-4b0a-8028-71806c2c4086",
+				"title": "Вода питьевая негазированная Шишкин Лес",
+				"price": "99 ₽",
+				"decimal_price": "99",
+				"weight": "5 л",
+				"parent_category_id": "",
+				"search_type": "menu",
+				"gallery": [{
+					"url": "https://avatars.mdst.yandex.net/get-eda/69745/f4a22d84eddeaf43e0aec7f2730219e5/{w}x{h}",
+					"scale": "aspect_fit"
+				}],
+				"public_id": "a203f594-2231-4b0a-8028-71806c2c4086",
+				"adult": false,
+				"badges": [],
+				"in_stock": 31,
+				"shipping_type": "all"
+			}, {
+				"id": "7b7d9dca-3ff4-4bc8-a7b5-63c1a8d29b50",
+				"title": "Напиток Bonaqua Viva Лимон негазированный",
+				"price": "65 ₽",
+				"decimal_price": "65",
+				"weight": "500 мл",
+				"parent_category_id": "",
+				"search_type": "menu",
+				"gallery": [{
+					"url": "https://avatars.mdst.yandex.net/get-eda/65351/2d7bb01a374851c1ce83ab7102608c48/{w}x{h}",
+					"scale": "aspect_fit"
+				}],
+				"public_id": "7b7d9dca-3ff4-4bc8-a7b5-63c1a8d29b50",
+				"adult": false,
+				"badges": [],
+				"in_stock": 35,
+				"shipping_type": "all"
+			}, {
+				"id": "d49a8d85-964a-43fa-a1a3-0d9e54003a4b",
+				"title": "Вода негазированная Святой Источник питьевая",
+				"price": "114 ₽",
+				"decimal_price": "114",
+				"weight": "5 л",
+				"parent_category_id": "",
+				"search_type": "menu",
+				"gallery": [{
+					"url": "https://avatars.mdst.yandex.net/get-eda/69745/6b469a43344c106ccd6ae0d800f14a21/{w}x{h}",
+					"scale": "aspect_fit"
+				}],
+				"public_id": "d49a8d85-964a-43fa-a1a3-0d9e54003a4b",
+				"adult": false,
+				"badges": [],
+				"in_stock": 6,
+				"shipping_type": "all"
+			}, {
+				"id": "02104a55-23b5-492d-9fc9-4d39b8f17387",
+				"title": "Вода минеральная Borjomi лечебно-столовая газированная",
+				"price": "197 ₽",
+				"decimal_price": "197",
+				"weight": "1.25 л",
+				"parent_category_id": "",
+				"search_type": "menu",
+				"gallery": [{
+					"url": "https://avatars.mdst.yandex.net/get-eda/3925/e240e90dde2d6cf853d9d1f33400e820/{w}x{h}",
+					"scale": "aspect_fit"
+				}],
+				"public_id": "02104a55-23b5-492d-9fc9-4d39b8f17387",
+				"adult": false,
+				"badges": [],
+				"in_stock": 14,
+				"shipping_type": "all"
+			}, {
+				"id": "8c1dcb06-7a35-4bb5-a772-7725aa557453",
+				"title": "Вода минеральная S.Pellegrino газированная",
+				"price": "149 ₽",
+				"decimal_price": "149",
+				"weight": "500 мл",
+				"parent_category_id": "",
+				"search_type": "menu",
+				"gallery": [{
+					"url": "https://avatars.mdst.yandex.net/get-eda/65351/8dba94c7cb13c2ca46fa923c96ff0135/{w}x{h}",
+					"scale": "aspect_fit"
+				}, {
+					"url": "https://avatars.mdst.yandex.net/get-eda/3191933/4ea638bcf615facda24d3b6bdaf952e2/{w}x{h}",
+					"scale": "aspect_fit"
+				}],
+				"public_id": "8c1dcb06-7a35-4bb5-a772-7725aa557453",
+				"adult": false,
+				"badges": [],
+				"in_stock": 18,
+				"shipping_type": "all"
+			}],
+			"available_to": "2025-06-18T00:00:00+03:00",
+			"delivery": {
+				"text": "55 – 65 мин"
+			},
+			"analytics": "CgQIF0gCCigIFBokbWlyYXRvcmdfYm9sc2hheWFfcG9seWFua2FfMV8zX214YXJ1ChEIaRoNbWlyYXRvcmc4MTAyMAoUCBUaENCc0LjRgNCw0YLQvtGA0LMKBAgPKAQKBQgWEgEBCgUIExIBAAoFCCESAQEKBQgiEgEFCgIISQp5CEiCARYKCG1pbl9jYXJ0EgrQvtGCIDAg4oK9ggEcCgxkZWxpdmVyeV9mZWUSDDIw4oCTMTE5IOKCvYIBGgoRZGVsaXZlcnlfZHVyYXRpb24SBX4xINGHggEfCgZyYXRpbmcSFdCc0LDQu9C+INC+0YbQtdC90L7QugoYCGMaFDU14oCJ4oCT4oCJNjUg0LzQuNC9",
+			"upper_meta": [{
+				"payload": {
+					"icon": {
+						"type": "colored_icon",
+						"icon": {
+							"color": {
+								"light": "#21201F",
+								"dark": "#E0DEDA"
+							},
+							"url": "asset://rating_star"
+						}
+					},
+					"text": {
+						"value": "Мало оценок",
+						"color": {
+							"light": "#21201F",
+							"dark": "#F3F0E7"
+						}
+					},
+					"type": "info"
+				}
+			}],
+			"lower_meta": [{
+				"payload": {
+					"text": {
+						"value": "~1 ч",
+						"color": {
+							"light": "#999588",
+							"dark": "#F3F0E7"
+						}
+					},
+					"type": "info"
+				}
+			}, {
+				"payload": {
+					"icon": {
+						"type": "colored_icon",
+						"icon": {
+							"color": {
+								"light": "#999588",
+								"dark": "#F3F0E7"
+							},
+							"url": "asset://surge_24"
+						}
+					},
+					"text": {
+						"value": "20–119 ₽",
+						"color": {
+							"light": "#999588",
+							"dark": "#F3F0E7"
+						}
+					},
+					"type": "info"
+				}
+			}, {
+				"payload": {
+					"text": {
+						"value": "·",
+						"color": {
+							"light": "#9E9B98",
+							"dark": "#F3F0E7"
+						}
+					},
+					"type": "separator"
+				}
+			}, {
+				"payload": {
+					"text": {
+						"value": "от 0 ₽",
+						"color": {
+							"light": "#999588",
+							"dark": "#F3F0E7"
+						}
+					},
+					"type": "info"
+				}
+			}]
+		}, {
+			"slug": "lenta_mp_dlya_integracii_oxotnyj_ryad_1",
+			"title": "Лента МП (для интеграции)",
+			"brand": {
+				"slug": "lenta_mp_dlya_integracii"
+			},
+			"business": "shop",
+			"available": true,
+			"picture": {
+				"url": "/images/3925/39f7800cce35b66f24551e0307fbe178-{w}x{h}.jpeg",
+				"ratio": 1.33
+			},
+			"rating": {
+				"icon": {
+					"color": {
+						"dark": "#8A8784",
+						"light": "#C4C2BE"
+					},
+					"url": "asset://rating_star"
+				},
+				"text": "Мало оценок"
+			},
+			"items": [{
+				"id": "438b6f03-7aa1-45a2-a497-849055609949",
+				"title": "Напиток безалкогольный PEPSI с/газ. ПЭТ 0.5L",
+				"price": "63 ₽",
+				"decimal_price": "63",
+				"weight": "522 г",
+				"parent_category_id": "",
+				"search_type": "menu",
+				"gallery": [{
+					"url": "https://avatars.mdst.yandex.net/get-eda/69745/dacc1e319e9213a67e241c2453d69574/{w}x{h}",
+					"scale": "aspect_fill"
+				}, {
+					"url": "https://avatars.mdst.yandex.net/get-eda/1411462/3814673608cca5e03f1df52d4ef999e2/{w}x{h}",
+					"scale": "aspect_fill"
+				}, {
+					"url": "https://avatars.mdst.yandex.net/get-eda/1411462/cafaba53243eb7a3a55d80ed1d11ce33/{w}x{h}",
+					"scale": "aspect_fill"
+				}, {
+					"url": "https://avatars.mdst.yandex.net/get-eda/1411645/c1ce4ecf3ed3baaf48004a26c532c1aa/{w}x{h}",
+					"scale": "aspect_fill"
+				}],
+				"public_id": "438b6f03-7aa1-45a2-a497-849055609949",
+				"adult": false,
+				"badges": [],
+				"in_stock": 999,
+				"shipping_type": "all"
+			}, {
+				"id": "20b4740b-a619-4075-b2cb-2fb1d278e01f",
+				"title": "Напиток безалкогольный PEPSI с/газ. ПЭТ 2L",
+				"price": "128 ₽",
+				"decimal_price": "128",
+				"weight": "2 кг",
+				"parent_category_id": "",
+				"search_type": "menu",
+				"gallery": [{
+					"url": "https://avatars.mdst.yandex.net/get-eda/69745/4854d722b9fbdcd22600c77da3a763f2/{w}x{h}",
+					"scale": "aspect_fill"
+				}, {
+					"url": "https://avatars.mdst.yandex.net/get-eda/1411645/d945424b23de2964fc249bea5393af4e/{w}x{h}",
+					"scale": "aspect_fill"
+				}, {
+					"url": "https://avatars.mdst.yandex.net/get-eda/1411645/611f4affb866965079735c44290c14a5/{w}x{h}",
+					"scale": "aspect_fill"
+				}, {
+					"url": "https://avatars.mdst.yandex.net/get-eda/1411462/6886209c8bbaca473daa3cf734d5d874/{w}x{h}",
+					"scale": "aspect_fill"
+				}],
+				"public_id": "20b4740b-a619-4075-b2cb-2fb1d278e01f",
+				"adult": false,
+				"badges": [],
+				"in_stock": 999,
+				"shipping_type": "all"
+			}, {
+				"id": "3eb5a194-6414-4c99-acc2-1208421c26df",
+				"title": "Сок BONVIDA Апельсиновый ст. 0.25L",
+				"price": "50 ₽",
+				"decimal_price": "50",
+				"weight": "250 г",
+				"parent_category_id": "",
+				"search_type": "menu",
+				"gallery": [{
+					"url": "https://avatars.mdst.yandex.net/get-eda/65351/8154a46dc38251a6d06a4879b82e2ab9/{w}x{h}",
+					"scale": "aspect_fill"
+				}, {
+					"url": "https://avatars.mdst.yandex.net/get-eda/69745/dd01bfe50e0dc178fb1e00b262342e95/{w}x{h}",
+					"scale": "aspect_fill"
+				}, {
+					"url": "https://avatars.mdst.yandex.net/get-eda/65351/c8a92255fd38ffc5312d8eb9f0991944/{w}x{h}",
+					"scale": "aspect_fill"
+				}, {
+					"url": "https://avatars.mdst.yandex.net/get-eda/1411462/2840176a0f4dc567b1ae1baf6fdc3040/{w}x{h}",
+					"scale": "aspect_fill"
+				}],
+				"public_id": "3eb5a194-6414-4c99-acc2-1208421c26df",
+				"adult": false,
+				"badges": [],
+				"in_stock": 999,
+				"shipping_type": "all"
+			}, {
+				"id": "91884dbe-2f56-44ab-b33d-f9e11fb783ce",
+				"title": "Напиток безалкогольный ADRENALINE Rush Энергия энергетический газ ж/б 0.449L",
+				"price": "131 ₽",
+				"decimal_price": "131",
+				"weight": "449 г",
+				"parent_category_id": "",
+				"search_type": "menu",
+				"gallery": [{
+					"url": "https://avatars.mdst.yandex.net/get-eda/69745/528ddab61d0b3579b1dd58fda86ed086/{w}x{h}",
+					"scale": "aspect_fill"
+				}, {
+					"url": "https://avatars.mdst.yandex.net/get-eda/1411462/6bf42cf58a5a4ae3978a39295f902374/{w}x{h}",
+					"scale": "aspect_fill"
+				}, {
+					"url": "https://avatars.mdst.yandex.net/get-eda/1411645/18aff5e61a9d8b53d54d8e2b9577507f/{w}x{h}",
+					"scale": "aspect_fill"
+				}, {
+					"url": "https://avatars.mdst.yandex.net/get-eda/1411462/c57b1fafc13a6ab0d6eada38ba2b26e6/{w}x{h}",
+					"scale": "aspect_fill"
+				}],
+				"public_id": "91884dbe-2f56-44ab-b33d-f9e11fb783ce",
+				"adult": false,
+				"badges": [],
+				"in_stock": 999,
+				"shipping_type": "all"
+			}, {
+				"id": "46ef6db9-db38-4cea-a676-adbf3f0aa557",
+				"title": "Вода минеральная BORJOMI Боржоми пит. лечеб.-стол. газ. ПЭТ 0.75L",
+				"price": "97 ₽",
+				"decimal_price": "97",
+				"weight": "750 г",
+				"parent_category_id": "",
+				"search_type": "menu",
+				"gallery": [{
+					"url": "https://avatars.mdst.yandex.net/get-eda/1411462/471ae3e5c96a596b39485a47a4d09b02/{w}x{h}",
+					"scale": "aspect_fill"
+				}, {
+					"url": "https://avatars.mdst.yandex.net/get-eda/1411645/abe29c4d9df94c6e201583bc8f7539ba/{w}x{h}",
+					"scale": "aspect_fill"
+				}, {
+					"url": "https://avatars.mdst.yandex.net/get-eda/1411462/d31f61097ad71cc03fae070326a953a5/{w}x{h}",
+					"scale": "aspect_fill"
+				}, {
+					"url": "https://avatars.mdst.yandex.net/get-eda/1411645/a191345332d830c8b2f6c66cf6761fcf/{w}x{h}",
+					"scale": "aspect_fill"
+				}],
+				"public_id": "46ef6db9-db38-4cea-a676-adbf3f0aa557",
+				"adult": false,
+				"badges": [],
+				"in_stock": 999,
+				"shipping_type": "all"
+			}],
+			"show_more": {
+				"title": "Показать еще"
+			},
+			"delivery": {
+				"text": "с 20:00"
+			},
+			"analytics": "CgQIF0gCCisIFBonbGVudGFfbXBfZGx5YV9pbnRlZ3JhY2lpX294b3RueWpfcnlhZF8xChwIaRoYbGVudGFfbXBfZGx5YV9pbnRlZ3JhY2lpCjEIFRot0JvQtdC90YLQsCDQnNCfICjQtNC70Y8g0LjQvdGC0LXQs9GA0LDRhtC40LgpCgQIDygECgUIFhIBAQoFCBMSAQAKBQghEgECCgUIIhIBBQoCCEkKSghIggEjChFkZWxpdmVyeV9kdXJhdGlvbhIOMjDigJMzMCDQvNC40L2CAR8KBnJhdGluZxIV0JzQsNC70L4g0L7RhtC10L3QvtC6CgwIYxoI0YEgMjA6MDA=",
+			"upper_meta": [{
+				"payload": {
+					"icon": {
+						"type": "colored_icon",
+						"icon": {
+							"color": {
+								"light": "#21201F",
+								"dark": "#E0DEDA"
+							},
+							"url": "asset://rating_star"
+						}
+					},
+					"text": {
+						"value": "Мало оценок",
+						"color": {
+							"light": "#21201F",
+							"dark": "#F3F0E7"
+						}
+					},
+					"type": "info"
+				}
+			}],
+			"lower_meta": [{
+				"payload": {
+					"text": {
+						"value": "20–30 мин",
+						"color": {
+							"light": "#999588",
+							"dark": "#F3F0E7"
+						}
+					},
+					"type": "info"
+				}
+			}]
+		}, {
+			"slug": "garmoniya_zdorovya_samovyvoz_test_integracii_oxotnyj_ryad_2",
+			"title": "Гармония Здоровья Самовывоз (тест интеграции)",
+			"brand": {
+				"slug": "garmoniya_zdorovya_samovyvoz_test_integracii"
+			},
+			"business": "shop",
+			"available": false,
+			"picture": {
+				"url": "/images/1411645/2466c0b35f10254223704ddb0ccd9883-{w}x{h}.jpeg",
+				"ratio": 1.33
+			},
+			"rating": {
+				"icon": {
+					"color": {
+						"dark": "#8A8784",
+						"light": "#C4C2BE"
+					},
+					"url": "asset://rating_star"
+				},
+				"text": "Мало оценок"
+			},
+			"items": [{
+				"id": "c75222d4-de7d-468c-a8c8-6f2e076544b5",
+				"title": "ВИШИ ПЮРТЕ Т ВОДА МИЦЕЛ. ОЧИЩ. Д/ЧУВСТ. КОЖИ МИНЕРАЛЫ 200МЛ. [VICHY]",
+				"price": "1538 ₽",
+				"decimal_price": "1538",
+				"weight": "1 г",
+				"parent_category_id": "",
+				"search_type": "menu",
+				"gallery": [{
+					"url": "https://avatars.mdst.yandex.net/get-eda/3925/6c8877ac2af6f19795e885f6d5948686/{w}x{h}",
+					"scale": "aspect_fill"
+				}],
+				"public_id": "c75222d4-de7d-468c-a8c8-6f2e076544b5",
+				"adult": false,
+				"badges": [{
+					"payload": {
+						"text": {
+							"value": "ОСТАЛОСЬ 1",
+							"color": {
+								"dark": "#FFFFFF",
+								"light": "#FFFFFF"
+							}
+						},
+						"background_color": {
+							"dark": "#000000",
+							"light": "#000000"
+						},
+						"type": "text_based"
+					},
+					"meta": {
+						"type": "product_promo"
+					}
+				}],
+				"in_stock": 1,
+				"shipping_type": "all"
+			}, {
+				"id": "5bbb73f8-48f2-4687-bc88-4ae4803a8f3a",
+				"title": "ЧЕМЕРИЧНАЯ ВОДА 100МЛ.",
+				"price": "140 ₽",
+				"decimal_price": "140",
+				"weight": "1 г",
+				"parent_category_id": "",
+				"search_type": "menu",
+				"public_id": "5bbb73f8-48f2-4687-bc88-4ae4803a8f3a",
+				"adult": false,
+				"badges": [{
+					"payload": {
+						"text": {
+							"value": "ОСТАЛОСЬ 1",
+							"color": {
+								"dark": "#FFFFFF",
+								"light": "#FFFFFF"
+							}
+						},
+						"background_color": {
+							"dark": "#000000",
+							"light": "#000000"
+						},
+						"type": "text_based"
+					},
+					"meta": {
+						"type": "product_promo"
+					}
+				}],
+				"in_stock": 1,
+				"shipping_type": "all"
+			}, {
+				"id": "b72bf172-6bc4-4637-9c4c-ec3bd6f2a7db",
+				"title": "СВЯТОЙ ИСТОЧНИК ВОДА ПИТЬЕВАЯ СПОРТИК 0,33Л. Н/ГАЗ.",
+				"price": "46 ₽",
+				"decimal_price": "46",
+				"weight": "1 г",
+				"parent_category_id": "",
+				"search_type": "menu",
+				"gallery": [{
+					"url": "https://avatars.mds.yandex.net/get-eda-testing/15263514/6284d32b351aa523ef0a5b4073cfea82/{w}x{h}",
+					"scale": "aspect_fill"
+				}],
+				"public_id": "b72bf172-6bc4-4637-9c4c-ec3bd6f2a7db",
+				"adult": false,
+				"badges": [{
+					"payload": {
+						"text": {
+							"value": "ОСТАЛОСЬ 2",
+							"color": {
+								"dark": "#FFFFFF",
+								"light": "#FFFFFF"
+							}
+						},
+						"background_color": {
+							"dark": "#000000",
+							"light": "#000000"
+						},
+						"type": "text_based"
+					},
+					"meta": {
+						"type": "product_promo"
+					}
+				}],
+				"in_stock": 2,
+				"shipping_type": "all"
+			}, {
+				"id": "27f52ce7-615f-4cf6-b8aa-6d592324fab0",
+				"title": "БИОДЕРМА СЕБИУМ Н2О МИЦЕЛЛЯРНАЯ  ВОДА 500МЛ [BIODERMA SEBIUM]",
+				"price": "1781 ₽",
+				"decimal_price": "1781",
+				"weight": "1 г",
+				"parent_category_id": "",
+				"search_type": "menu",
+				"gallery": [{
+					"url": "https://avatars.mdst.yandex.net/get-eda/3925/c844b0136727340c2f2d8f3a7283d49a/{w}x{h}",
+					"scale": "aspect_fill"
+				}, {
+					"url": "https://avatars.mdst.yandex.net/get-eda/69745/c90919a824f0182ca2c14f6f3b52ea15/{w}x{h}",
+					"scale": "aspect_fill"
+				}, {
+					"url": "https://avatars.mdst.yandex.net/get-eda/65351/9941a407bc0d7c3bf09d8f26b3209cbc/{w}x{h}",
+					"scale": "aspect_fill"
+				}],
+				"public_id": "27f52ce7-615f-4cf6-b8aa-6d592324fab0",
+				"adult": false,
+				"badges": [{
+					"payload": {
+						"text": {
+							"value": "ОСТАЛОСЬ 1",
+							"color": {
+								"dark": "#FFFFFF",
+								"light": "#FFFFFF"
+							}
+						},
+						"background_color": {
+							"dark": "#000000",
+							"light": "#000000"
+						},
+						"type": "text_based"
+					},
+					"meta": {
+						"type": "product_promo"
+					}
+				}],
+				"in_stock": 1,
+				"shipping_type": "all"
+			}],
+			"delivery": {
+				"text": "Закрыто"
+			},
+			"analytics": "CgQIF0gCCj8IFBo7Z2FybW9uaXlhX3pkb3JvdnlhX3NhbW92eXZvel90ZXN0X2ludGVncmFjaWlfb3hvdG55al9yeWFkXzIKMAhpGixnYXJtb25peWFfemRvcm92eWFfc2Ftb3Z5dm96X3Rlc3RfaW50ZWdyYWNpaQpYCBUaVNCT0LDRgNC80L7QvdC40Y8g0JfQtNC+0YDQvtCy0YzRjyDQodCw0LzQvtCy0YvQstC+0LcgKNGC0LXRgdGCINC40L3RgtC10LPRgNCw0YbQuNC4KQoECA8oBAoFCBYSAQAKBQgTEgEACgUIIRIBAwoFCCISAQQKAghJCkcISIIBIAoOY2xvc2VkX3dhcm5pbmcSDtCX0LDQutGA0YvRgtC+ggEfCgZyYXRpbmcSFdCc0LDQu9C+INC+0YbQtdC90L7QugoSCGMaDtCX0LDQutGA0YvRgtC+",
+			"upper_meta": [{
+				"payload": {
+					"icon": {
+						"type": "colored_icon",
+						"icon": {
+							"color": {
+								"light": "#21201F",
+								"dark": "#E0DEDA"
+							},
+							"url": "asset://rating_star"
+						}
+					},
+					"text": {
+						"value": "Мало оценок",
+						"color": {
+							"light": "#21201F",
+							"dark": "#F3F0E7"
+						}
+					},
+					"type": "info"
+				}
+			}],
+			"lower_meta": [{
+				"payload": {
+					"text": {
+						"value": "Закрыто",
+						"color": {
+							"light": "#FA3E2C",
+							"dark": "#FA3E2C"
+						}
+					},
+					"type": "info"
+				}
+			}]
+		}, {
+			"slug": "aloe_test_integracii_oxotnyj_ryad_2",
+			"title": "Алоэ (тест интеграции)",
+			"brand": {
+				"slug": "aloe_test_integracii"
+			},
+			"business": "shop",
+			"available": true,
+			"picture": {
+				"url": "/images/1411645/2466c0b35f10254223704ddb0ccd9883-{w}x{h}.jpeg",
+				"ratio": 1.33
+			},
+			"rating": {
+				"icon": {
+					"color": {
+						"dark": "#8A8784",
+						"light": "#C4C2BE"
+					},
+					"url": "asset://rating_star"
+				},
+				"text": "Мало оценок"
+			},
+			"items": [{
+				"id": "e2253b0b-ad5c-4ce9-9d15-57f44ad4c2d0",
+				"title": "Вода минеральная Заечицкая горькая 0,5л",
+				"price": "393 ₽",
+				"decimal_price": "393",
+				"weight": "1 г",
+				"parent_category_id": "",
+				"search_type": "menu",
+				"public_id": "e2253b0b-ad5c-4ce9-9d15-57f44ad4c2d0",
+				"adult": false,
+				"badges": [],
+				"in_stock": 12,
+				"shipping_type": "all"
+			}, {
+				"id": "b31cd0eb-ead4-4a55-9710-cd5d802f6255",
+				"title": "Вода минеральная Пролом 0.5 л",
+				"price": "130 ₽",
+				"decimal_price": "130",
+				"weight": "1 г",
+				"parent_category_id": "",
+				"search_type": "menu",
+				"public_id": "b31cd0eb-ead4-4a55-9710-cd5d802f6255",
+				"adult": false,
+				"badges": [],
+				"in_stock": 6,
+				"shipping_type": "all"
+			}, {
+				"id": "371503c5-33d4-416c-831d-c6ed29c6c43d",
+				"title": "Вода д/ин амп 5мл №10",
+				"price": "118 ₽",
+				"decimal_price": "118",
+				"weight": "1 г",
+				"parent_category_id": "",
+				"search_type": "menu",
+				"public_id": "371503c5-33d4-416c-831d-c6ed29c6c43d",
+				"adult": false,
+				"badges": [{
+					"payload": {
+						"text": {
+							"value": "САМОВЫВОЗ",
+							"color": {
+								"dark": "#FFFFFF",
+								"light": "#FFFFFF"
+							}
+						},
+						"background_color": {
+							"dark": "#3C3B3A",
+							"light": "#3C3B3A"
+						},
+						"type": "text_based"
+					},
+					"meta": {
+						"type": "product_promo"
+					}
+				}, {
+					"payload": {
+						"text": {
+							"value": "ПО РЕЦЕПТУ",
+							"color": {
+								"dark": "#FFFFFF",
+								"light": "#FFFFFF"
+							}
+						},
+						"background_color": {
+							"dark": "#FFCD94",
+							"light": "#52BA63"
+						},
+						"type": "text_based"
+					},
+					"meta": {
+						"type": "product_promo"
+					}
+				}],
+				"in_stock": 2,
+				"shipping_type": "pickup"
+			}, {
+				"id": "755d2973-9c0b-4304-879a-9f5d49a06e42",
+				"title": "Биодерма Гидрабио H2O мицеллярная вода увлажн. 500мл",
+				"price": "1837 ₽",
+				"decimal_price": "1837",
+				"weight": "1 г",
+				"parent_category_id": "",
+				"search_type": "menu",
+				"public_id": "755d2973-9c0b-4304-879a-9f5d49a06e42",
+				"adult": false,
+				"badges": [{
+					"payload": {
+						"text": {
+							"value": "ОСТАЛОСЬ 1",
+							"color": {
+								"dark": "#FFFFFF",
+								"light": "#FFFFFF"
+							}
+						},
+						"background_color": {
+							"dark": "#000000",
+							"light": "#000000"
+						},
+						"type": "text_based"
+					},
+					"meta": {
+						"type": "product_promo"
+					}
+				}],
+				"in_stock": 1,
+				"shipping_type": "all"
+			}, {
+				"id": "cf02e335-5f07-44f7-9ebb-aa46a3f9c474",
+				"title": "ЛРП Термальная вода 300мл",
+				"price": "1179 ₽",
+				"decimal_price": "1179",
+				"weight": "1 г",
+				"parent_category_id": "",
+				"search_type": "menu",
+				"public_id": "cf02e335-5f07-44f7-9ebb-aa46a3f9c474",
+				"adult": false,
+				"badges": [{
+					"payload": {
+						"text": {
+							"value": "ОСТАЛОСЬ 2",
+							"color": {
+								"dark": "#FFFFFF",
+								"light": "#FFFFFF"
+							}
+						},
+						"background_color": {
+							"dark": "#000000",
+							"light": "#000000"
+						},
+						"type": "text_based"
+					},
+					"meta": {
+						"type": "product_promo"
+					}
+				}],
+				"in_stock": 2,
+				"shipping_type": "all"
+			}],
+			"show_more": {
+				"title": "Показать еще"
+			},
+			"available_to": "2025-07-02T00:00:00+03:00",
+			"delivery": {
+				"text": "5.7 км"
+			},
+			"analytics": "CgQIF0gCCicIFBojYWxvZV90ZXN0X2ludGVncmFjaWlfb3hvdG55al9yeWFkXzIKGAhpGhRhbG9lX3Rlc3RfaW50ZWdyYWNpaQosCBUaKNCQ0LvQvtGNICjRgtC10YHRgiDQuNC90YLQtdCz0YDQsNGG0LjQuCkKBAgPKAQKBQgWEgEBCgUIExIBAAoFCCESAQQKBQgiEgEFCgIISQpECEiCAR0KEWRlbGl2ZXJ5X2R1cmF0aW9uEgg1Ljcg0LrQvIIBHwoGcmF0aW5nEhXQnNCw0LvQviDQvtGG0LXQvdC+0LoKDAhjGgg1Ljcg0LrQvA==",
+			"upper_meta": [{
+				"payload": {
+					"icon": {
+						"type": "colored_icon",
+						"icon": {
+							"color": {
+								"light": "#21201F",
+								"dark": "#E0DEDA"
+							},
+							"url": "asset://rating_star"
+						}
+					},
+					"text": {
+						"value": "Мало оценок",
+						"color": {
+							"light": "#21201F",
+							"dark": "#F3F0E7"
+						}
+					},
+					"type": "info"
+				}
+			}],
+			"lower_meta": [{
+				"payload": {
+					"text": {
+						"value": "5.7 км",
+						"color": {
+							"light": "#999588",
+							"dark": "#F3F0E7"
+						}
+					},
+					"type": "info"
+				}
+			}]
+		}, {
+			"slug": "x5__integration_test_panfyorova_1",
+			"title": "X5 - Perekrestok MP (tsx)",
+			"brand": {
+				"slug": "x5_-_integration_test"
+			},
+			"business": "shop",
+			"available": true,
+			"picture": {
+				"url": "/images/1411645/f435e06363562224a0d249745331b73e-{w}x{h}.jpeg",
+				"ratio": 1.33
+			},
+			"rating": {
+				"icon": {
+					"color": {
+						"dark": "#8A8784",
+						"light": "#C4C2BE"
+					},
+					"url": "asset://rating_star"
+				},
+				"text": "Мало оценок"
+			},
+			"items": [{
+				"id": "abaec7ae-8792-4ea0-a7a7-d0a6964b7b0a",
+				"title": "Вода Боржоми минеральная лечебно-столовая газированная, 500мл",
+				"price": "99.99 ₽",
+				"decimal_price": "99.99",
+				"price_discount_value": 17,
+				"decimal_old_price": "119.99",
+				"weight": "500 г",
+				"parent_category_id": "",
+				"search_type": "menu",
+				"gallery": [{
+					"url": "https://avatars.mdst.yandex.net/get-eda/69745/8899672458fbe5af586fca5daf9385b2/{w}x{h}",
+					"scale": "aspect_fill"
+				}],
+				"public_id": "abaec7ae-8792-4ea0-a7a7-d0a6964b7b0a",
+				"adult": false,
+				"badges": [{
+					"payload": {
+						"text": {
+							"value": "–16%",
+							"color": {
+								"dark": "#F8E5DF",
+								"light": "#F8E5DF"
+							}
+						},
+						"background_color": {
+							"dark": "#FF0000",
+							"light": "#FF0000"
+						},
+						"type": "text_based"
+					},
+					"meta": {
+						"type": "price_discount"
+					}
+				}, {
+					"payload": {
+						"text": {
+							"value": "–17%",
+							"color": {
+								"dark": "#F8E5DF",
+								"light": "#F8E5DF"
+							}
+						},
+						"background_color": {
+							"dark": "#FF0000",
+							"light": "#FF0000"
+						},
+						"type": "text_based"
+					},
+					"meta": {
+						"type": "price_discount"
+					}
+				}],
+				"in_stock": 44,
+				"shipping_type": "all"
+			}, {
+				"id": "18e3a1ed-ba85-4866-b4d6-2d6aa3b99bc9",
+				"title": "Вода Святой источник питьевая негазированная, 330мл",
+				"price": "31.99 ₽",
+				"decimal_price": "31.99",
+				"weight": "330 г",
+				"parent_category_id": "",
+				"search_type": "menu",
+				"gallery": [{
+					"url": "https://avatars.mds.yandex.net/get-eda-testing/3925/122c19837192f54a2b21731e9a5bf0d3/{w}x{h}",
+					"scale": "aspect_fill"
+				}],
+				"public_id": "18e3a1ed-ba85-4866-b4d6-2d6aa3b99bc9",
+				"adult": false,
+				"badges": [],
+				"in_stock": 69,
+				"shipping_type": "all"
+			}, {
+				"id": "8a20b628-2220-4c1d-86f5-479763b43b40",
+				"title": "Вода Baikal 430м природная питьевая негазированная, 450мл",
+				"price": "59.99 ₽",
+				"decimal_price": "59.99",
+				"price_discount_value": 23,
+				"decimal_old_price": "77.99",
+				"weight": "430 г",
+				"parent_category_id": "",
+				"search_type": "menu",
+				"gallery": [{
+					"url": "https://avatars.mds.yandex.net/get-eda-testing/3925/864b53ff7015394729ce21d612ef0161/{w}x{h}",
+					"scale": "aspect_fill"
+				}],
+				"public_id": "8a20b628-2220-4c1d-86f5-479763b43b40",
+				"adult": false,
+				"badges": [{
+					"payload": {
+						"text": {
+							"value": "–23%",
+							"color": {
+								"dark": "#F8E5DF",
+								"light": "#F8E5DF"
+							}
+						},
+						"background_color": {
+							"dark": "#FF0000",
+							"light": "#FF0000"
+						},
+						"type": "text_based"
+					},
+					"meta": {
+						"type": "price_discount"
+					}
+				}, {
+					"payload": {
+						"text": {
+							"value": "–23%",
+							"color": {
+								"dark": "#F8E5DF",
+								"light": "#F8E5DF"
+							}
+						},
+						"background_color": {
+							"dark": "#FF0000",
+							"light": "#FF0000"
+						},
+						"type": "text_based"
+					},
+					"meta": {
+						"type": "price_discount"
+					}
+				}],
+				"in_stock": 65,
+				"shipping_type": "all"
+			}, {
+				"id": "a4e5aced-5691-4ea2-b8c0-2e84f3e45cb3",
+				"title": "Нектар Rich вишнёвый, 200мл",
+				"price": "84.99 ₽",
+				"decimal_price": "84.99",
+				"price_discount_value": 23,
+				"decimal_old_price": "109.99",
+				"weight": "200 г",
+				"parent_category_id": "",
+				"search_type": "menu",
+				"gallery": [{
+					"url": "https://avatars.mds.yandex.net/get-eda-testing/1411462/97ea3512dfcf94a6b8a5240824e67918/{w}x{h}",
+					"scale": "aspect_fill"
+				}],
+				"public_id": "a4e5aced-5691-4ea2-b8c0-2e84f3e45cb3",
+				"adult": false,
+				"badges": [{
+					"payload": {
+						"text": {
+							"value": "–22%",
+							"color": {
+								"dark": "#F8E5DF",
+								"light": "#F8E5DF"
+							}
+						},
+						"background_color": {
+							"dark": "#FF0000",
+							"light": "#FF0000"
+						},
+						"type": "text_based"
+					},
+					"meta": {
+						"type": "price_discount"
+					}
+				}, {
+					"payload": {
+						"text": {
+							"value": "–23%",
+							"color": {
+								"dark": "#F8E5DF",
+								"light": "#F8E5DF"
+							}
+						},
+						"background_color": {
+							"dark": "#FF0000",
+							"light": "#FF0000"
+						},
+						"type": "text_based"
+					},
+					"meta": {
+						"type": "price_discount"
+					}
+				}],
+				"in_stock": 16,
+				"shipping_type": "all"
+			}, {
+				"id": "395fdca4-dc2e-4cf0-8f67-d998a2b4894a",
+				"title": "Напиток Aziano Watermelon со вкусом Арбуза безалкогольный слабогазированный, 350мл",
+				"price": "95.99 ₽",
+				"decimal_price": "95.99",
+				"weight": "350 г",
+				"parent_category_id": "",
+				"search_type": "menu",
+				"gallery": [{
+					"url": "https://avatars.mds.yandex.net/get-eda-testing/3925/3c31135dc864fd4b72b32c8503f5f1c2/{w}x{h}",
+					"scale": "aspect_fill"
+				}],
+				"public_id": "395fdca4-dc2e-4cf0-8f67-d998a2b4894a",
+				"adult": false,
+				"badges": [],
+				"in_stock": 10,
+				"shipping_type": "all"
+			}],
+			"show_more": {
+				"title": "Показать еще"
+			},
+			"available_to": "2025-06-18T00:00:00+03:00",
+			"delivery": {
+				"text": "130 – 140 мин"
+			},
+			"analytics": "CgQIF0gCCiUIFBoheDVfX2ludGVncmF0aW9uX3Rlc3RfcGFuZnlvcm92YV8xChkIaRoVeDVfLV9pbnRlZ3JhdGlvbl90ZXN0Ch0IFRoZWDUgLSBQZXJla3Jlc3RvayBNUCAodHN4KQoECA8oBAoFCBYSAQEKBQgTEgEACgUIIRIBBQoFCCISAQUKAghJCkYISIIBHwoRZGVsaXZlcnlfZHVyYXRpb24SCjLigJMyLjUg0YeCAR8KBnJhdGluZxIV0JzQsNC70L4g0L7RhtC10L3QvtC6ChoIYxoWMTMw4oCJ4oCT4oCJMTQwINC80LjQvQ==",
+			"upper_meta": [{
+				"payload": {
+					"icon": {
+						"type": "colored_icon",
+						"icon": {
+							"color": {
+								"light": "#21201F",
+								"dark": "#E0DEDA"
+							},
+							"url": "asset://rating_star"
+						}
+					},
+					"text": {
+						"value": "Мало оценок",
+						"color": {
+							"light": "#21201F",
+							"dark": "#F3F0E7"
+						}
+					},
+					"type": "info"
+				}
+			}],
+			"lower_meta": [{
+				"payload": {
+					"text": {
+						"value": "2–2.5 ч",
+						"color": {
+							"light": "#999588",
+							"dark": "#F3F0E7"
+						}
+					},
+					"type": "info"
+				}
+			}]
+		}, {
+			"slug": "korporaciya_syrok_test_integracii_oxotnyj_ryad_1",
+			"title": "Корпорация Сырок (тест интеграции)",
+			"brand": {
+				"slug": "monastyrev_test_integracii"
+			},
+			"business": "shop",
+			"available": false,
+			"picture": {
+				"url": "/images/3925/e6321f0dc598be224fefa8ec64a8d92a-{w}x{h}.jpeg",
+				"ratio": 1.33
+			},
+			"rating": {
+				"icon": {
+					"color": {
+						"dark": "#8A8784",
+						"light": "#C4C2BE"
+					},
+					"url": "asset://rating_star"
+				},
+				"text": "Мало оценок"
+			},
+			"items": [{
+				"id": "26892705-e283-432f-9f05-16958ec6a395",
+				"title": "Вода мицеллярная Ля Рош Позе (La Roche-Posay) Ультра д/лица д/чувствит/склонной к аллергии кожи очищ фл 200 мл №1",
+				"price": "1630 ₽",
+				"decimal_price": "1630",
+				"price_discount_value": 21,
+				"decimal_old_price": "2054",
+				"weight": "230 г",
+				"parent_category_id": "",
+				"search_type": "menu",
+				"gallery": [{
+					"url": "https://avatars.mdst.yandex.net/get-eda/1411462/0c2b9bac96118d589553e9efa31e5854/{w}x{h}",
+					"scale": "aspect_fill"
+				}],
+				"public_id": "26892705-e283-432f-9f05-16958ec6a395",
+				"adult": false,
+				"badges": [{
+					"payload": {
+						"text": {
+							"value": "–20%",
+							"color": {
+								"dark": "#F8E5DF",
+								"light": "#F8E5DF"
+							}
+						},
+						"background_color": {
+							"dark": "#FF0000",
+							"light": "#FF0000"
+						},
+						"type": "text_based"
+					},
+					"meta": {
+						"type": "price_discount"
+					}
+				}, {
+					"payload": {
+						"text": {
+							"value": "ОСТАЛОСЬ 1",
+							"color": {
+								"dark": "#FFFFFF",
+								"light": "#FFFFFF"
+							}
+						},
+						"background_color": {
+							"dark": "#000000",
+							"light": "#000000"
+						},
+						"type": "text_based"
+					},
+					"meta": {
+						"type": "product_promo"
+					}
+				}, {
+					"payload": {
+						"text": {
+							"value": "–21%",
+							"color": {
+								"dark": "#F8E5DF",
+								"light": "#F8E5DF"
+							}
+						},
+						"background_color": {
+							"dark": "#FF0000",
+							"light": "#FF0000"
+						},
+						"type": "text_based"
+					},
+					"meta": {
+						"type": "price_discount"
+					}
+				}],
+				"in_stock": 1,
+				"shipping_type": "all"
+			}, {
+				"id": "d23fec39-c590-4baa-a06d-79f15ab8e3e4",
+				"title": "Вода мицеллярная Ля Рош Позе (La Roche-Posay) Ультра д/лица д/чувствит/склонной к аллергии кожи очищ фл 400 мл №1",
+				"price": "2245 ₽",
+				"decimal_price": "2245",
+				"weight": "448 г",
+				"parent_category_id": "",
+				"search_type": "menu",
+				"gallery": [{
+					"url": "https://avatars.mdst.yandex.net/get-eda/1411645/8fbd8a55e4658c8535dc75cd2d63e0f6/{w}x{h}",
+					"scale": "aspect_fill"
+				}],
+				"public_id": "d23fec39-c590-4baa-a06d-79f15ab8e3e4",
+				"adult": false,
+				"badges": [],
+				"in_stock": 4,
+				"shipping_type": "all"
+			}, {
+				"id": "e2dc9272-7c00-4589-b15e-ec6e191fed5f",
+				"title": "Вода мицеллярная Ля Рош Позе (La Roche-Posay) Ультра д/лица/глаз д/чувствит кожи очищ фл 400 мл №1",
+				"price": "2005 ₽",
+				"decimal_price": "2005",
+				"weight": "443 г",
+				"parent_category_id": "",
+				"search_type": "menu",
+				"gallery": [{
+					"url": "https://avatars.mdst.yandex.net/get-eda/1411462/f8a15b636ca6d0dec29d76002be20e39/{w}x{h}",
+					"scale": "aspect_fill"
+				}],
+				"public_id": "e2dc9272-7c00-4589-b15e-ec6e191fed5f",
+				"adult": false,
+				"badges": [{
+					"payload": {
+						"text": {
+							"value": "ОСТАЛОСЬ 1",
+							"color": {
+								"dark": "#FFFFFF",
+								"light": "#FFFFFF"
+							}
+						},
+						"background_color": {
+							"dark": "#000000",
+							"light": "#000000"
+						},
+						"type": "text_based"
+					},
+					"meta": {
+						"type": "product_promo"
+					}
+				}],
+				"in_stock": 1,
+				"shipping_type": "all"
+			}, {
+				"id": "e51cd4b2-a568-43c4-b4ac-5eb4d8637b91",
+				"title": "Вода мицеллярная Ля Рош Позе (La Roche-Posay) Эфаклар Ультра очищ д/жирн/проблем кожи фл 400 мл №1",
+				"price": "2248 ₽",
+				"decimal_price": "2248",
+				"price_discount_value": 20,
+				"decimal_old_price": "2810",
+				"weight": "439 г",
+				"parent_category_id": "",
+				"search_type": "menu",
+				"gallery": [{
+					"url": "https://avatars.mdst.yandex.net/get-eda/1411462/521cbe8c26a44a80755477bc8b8b89a0/{w}x{h}",
+					"scale": "aspect_fill"
+				}],
+				"public_id": "e51cd4b2-a568-43c4-b4ac-5eb4d8637b91",
+				"adult": false,
+				"badges": [{
+					"payload": {
+						"text": {
+							"value": "–20%",
+							"color": {
+								"dark": "#F8E5DF",
+								"light": "#F8E5DF"
+							}
+						},
+						"background_color": {
+							"dark": "#FF0000",
+							"light": "#FF0000"
+						},
+						"type": "text_based"
+					},
+					"meta": {
+						"type": "price_discount"
+					}
+				}, {
+					"payload": {
+						"text": {
+							"value": "ОСТАЛОСЬ 1",
+							"color": {
+								"dark": "#FFFFFF",
+								"light": "#FFFFFF"
+							}
+						},
+						"background_color": {
+							"dark": "#000000",
+							"light": "#000000"
+						},
+						"type": "text_based"
+					},
+					"meta": {
+						"type": "product_promo"
+					}
+				}, {
+					"payload": {
+						"text": {
+							"value": "–20%",
+							"color": {
+								"dark": "#F8E5DF",
+								"light": "#F8E5DF"
+							}
+						},
+						"background_color": {
+							"dark": "#FF0000",
+							"light": "#FF0000"
+						},
+						"type": "text_based"
+					},
+					"meta": {
+						"type": "price_discount"
+					}
+				}],
+				"in_stock": 1,
+				"shipping_type": "all"
+			}, {
+				"id": "fb996141-dbd0-4ae2-a927-9811fd01bc8f",
+				"title": "Вода мицеллярная Либридерм (Librederm)  Мицеклин Гидра д/лица д/сух кожи фл пласт 200 мл №1",
+				"price": "511 ₽",
+				"decimal_price": "511",
+				"price_discount_value": 26,
+				"decimal_old_price": "687",
+				"weight": "223 г",
+				"parent_category_id": "",
+				"search_type": "menu",
+				"gallery": [{
+					"url": "https://avatars.mdst.yandex.net/get-eda/1411645/f769bb8244d877236213dfa7cbf60cd6/{w}x{h}",
+					"scale": "aspect_fill"
+				}],
+				"public_id": "fb996141-dbd0-4ae2-a927-9811fd01bc8f",
+				"adult": false,
+				"badges": [{
+					"payload": {
+						"text": {
+							"value": "–25%",
+							"color": {
+								"dark": "#F8E5DF",
+								"light": "#F8E5DF"
+							}
+						},
+						"background_color": {
+							"dark": "#FF0000",
+							"light": "#FF0000"
+						},
+						"type": "text_based"
+					},
+					"meta": {
+						"type": "price_discount"
+					}
+				}, {
+					"payload": {
+						"text": {
+							"value": "ОСТАЛОСЬ 1",
+							"color": {
+								"dark": "#FFFFFF",
+								"light": "#FFFFFF"
+							}
+						},
+						"background_color": {
+							"dark": "#000000",
+							"light": "#000000"
+						},
+						"type": "text_based"
+					},
+					"meta": {
+						"type": "product_promo"
+					}
+				}, {
+					"payload": {
+						"text": {
+							"value": "–26%",
+							"color": {
+								"dark": "#F8E5DF",
+								"light": "#F8E5DF"
+							}
+						},
+						"background_color": {
+							"dark": "#FF0000",
+							"light": "#FF0000"
+						},
+						"type": "text_based"
+					},
+					"meta": {
+						"type": "price_discount"
+					}
+				}],
+				"in_stock": 1,
+				"shipping_type": "all"
+			}],
+			"show_more": {
+				"title": "Показать еще"
+			},
+			"delivery": {
+				"text": "Закрыто"
+			},
+			"analytics": "CgQIF0gCCjQIFBowa29ycG9yYWNpeWFfc3lyb2tfdGVzdF9pbnRlZ3JhY2lpX294b3RueWpfcnlhZF8xCh4IaRoabW9uYXN0eXJldl90ZXN0X2ludGVncmFjaWkKQwgVGj/QmtC+0YDQv9C+0YDQsNGG0LjRjyDQodGL0YDQvtC6ICjRgtC10YHRgiDQuNC90YLQtdCz0YDQsNGG0LjQuCkKBAgPKAQKBQgWEgEACgUIExIBAAoFCCESAQYKBQgiEgEFCgIISQpHCEiCASAKDmNsb3NlZF93YXJuaW5nEg7Ql9Cw0LrRgNGL0YLQvoIBHwoGcmF0aW5nEhXQnNCw0LvQviDQvtGG0LXQvdC+0LoKEghjGg7Ql9Cw0LrRgNGL0YLQvg==",
+			"upper_meta": [{
+				"payload": {
+					"icon": {
+						"type": "colored_icon",
+						"icon": {
+							"color": {
+								"light": "#21201F",
+								"dark": "#E0DEDA"
+							},
+							"url": "asset://rating_star"
+						}
+					},
+					"text": {
+						"value": "Мало оценок",
+						"color": {
+							"light": "#21201F",
+							"dark": "#F3F0E7"
+						}
+					},
+					"type": "info"
+				}
+			}],
+			"lower_meta": [{
+				"payload": {
+					"text": {
+						"value": "Закрыто",
+						"color": {
+							"light": "#FA3E2C",
+							"dark": "#FA3E2C"
+						}
+					},
+					"type": "info"
+				}
+			}]
+		}]
+	}],
+	"adult_dialog": {
+		"title": "Вам уже есть 21 год?",
+		"text": "",
+		"description": "Подтвердите свой возраст, чтобы заказывать товары для взрослых. ",
+		"accept_button_text": "Да, мне есть 21 год",
+		"decline_button_text": "Нет"
+	},
+	"analytics": "CgQIF0gBCgwIGBoI0JLQvtC00LAKJwgZGiMxNzUwMTc2NDg3MDY4Njg4LTkxODYyMDUzODI2MDUzMTIxNgomCGQaItCd0LDQudC00LXQvSA0MSDRgNC10LfRg9C70YzRgtCw0YIKiAEIZhoHYWxsOmFsbBodcXVpY2tmaWx0ZXI6c2VhcmNoX3Jlc3RhdXJhbnQaEHF1aWNrZmlsdGVyOnNob3AaEHF1aWNrZmlsdGVyOmZhc3QaFHF1aWNrZmlsdGVyOm5vX3N1cmdlGiJncm91cDpib3R0b21fc2hlZXRfY2F0ZWdvcnlfYnV0dG9uCvsBCGcaF3F1aWNrZmlsdGVyOmJ1cmdlcl90ZXN0GhlxdWlja2ZpbHRlcjpidXJnZXJfc2VhcmNoGhNxdWlja2ZpbHRlcjpzaGF1cm1hGhJxdWlja2ZpbHRlcjpjb2ZmZWUaF3F1aWNrZmlsdGVyOmdydXppbnNrYXlhGhRxdWlja2ZpbHRlcjpmb29kbWFsbBoScXVpY2tmaWx0ZXI6YmFrZXJ5Gh1xdWlja2ZpbHRlcjpzZWFyY2hfcmVzdGF1cmFudBoQcXVpY2tmaWx0ZXI6c2hvcBoQcXVpY2tmaWx0ZXI6ZmFzdBoUcXVpY2tmaWx0ZXI6bm9fc3VyZ2UKLwgdUg0KBAgeIAEKBQggEgECUg0KBAgeIAEKBQggEgEBUg0KBAgeIAEKBQggEgEHCgUIGxIBCgoFCBwSAQYKBAgnWAEKJAhlGiA4ZDIxOWU4MDFmOTE0MTdjODFiNGQxMTVjZGU4ZjRjNQ==",
+	"currency": {
+		"code": "RUB",
+		"sign": "₽",
+		"template": "$VALUE$ $SIGN$$CURRENCY$",
+		"text": "руб."
+	},
+	"pagination": {
+		"context": "CiA4ZDIxOWU4MDFmOTE0MTdjODFiNGQxMTVjZGU4ZjRjNRICCAoSUAgBEkwKI2F6YnVrYXZrdXNhX2tvbXNvbW9sc2tpal9wcm9zcGVrdF80CiV2a3VzdmlsbF9sZW5pbnNraWpfcHJvc3Bla3RfMzdhX2NieXZsEgYIARICCgASrAIIARKnAgofbGVudGFfdGVzdDE1MjIyN19veG90bnlqX3J5YWRfMQokbWlyYXRvcmdfYm9sc2hheWFfcG9seWFua2FfMV8zX214YXJ1CidsZW50YV9tcF9kbHlhX2ludGVncmFjaWlfb3hvdG55al9yeWFkXzEKO2dhcm1vbml5YV96ZG9yb3Z5YV9zYW1vdnl2b3pfdGVzdF9pbnRlZ3JhY2lpX294b3RueWpfcnlhZF8yCiNhbG9lX3Rlc3RfaW50ZWdyYWNpaV9veG90bnlqX3J5YWRfMgoheDVfX2ludGVncmF0aW9uX3Rlc3RfcGFuZnlvcm92YV8xCjBrb3Jwb3JhY2l5YV9zeXJva190ZXN0X2ludGVncmFjaWlfb3hvdG55al9yeWFkXzE="
+	}
+}
