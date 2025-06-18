@@ -35,7 +35,7 @@ test.describe('Итоговый проект', () => {
   });
   test.use({permissions: []}) // блокировка уведомлений/запросов от браузера, к примеру, доступ к гео
 
-  test('[Desktop] Сброс фильтров при клике на лого в шапке - 53200', async ({ page }) => { // по мотивам тк https://tms.yandex-team.ru/projects/yandex_eats/testcases/53200
+test('[Desktop] Сброс фильтров при клике на лого в шапке - 53200', async ({ page }) => { // по мотивам тк https://tms.yandex-team.ru/projects/yandex_eats/testcases/53200
     const Pickup = page.getByText('Самовывоз');
     const header = page.getByRole('link', { name: 'Логотип Яндекс Еды' })
 
@@ -51,7 +51,7 @@ test.describe('Итоговый проект', () => {
   });
 
   // практика использования моков 
-  test('[Desktop] Пустой ответ каталога - 53131', async ({ page }) => { // по мотивам тк https://tms.yandex-team.ru/projects/yandex_eats/testcases/53131
+test('[Desktop] Пустой ответ каталога - 53131', async ({ page }) => { // по мотивам тк https://tms.yandex-team.ru/projects/yandex_eats/testcases/53131
     // 1. Мокируем тело ответа сервера нужной ручки файлом json с пк
     const fs = require('fs');
     await page.route('**/eats/v1/layout-constructor/v1/layout', async (route) => {
@@ -70,7 +70,7 @@ test.describe('Итоговый проект', () => {
   });
 
   // практика подгрузки куков 
-  test('Проверка, что пользователь авторизован (авторизация через подгрузку куки)', async ({ page, context }) => {
+test('Проверка, что пользователь авторизован (авторизация через подгрузку куки)', async ({ page, context }) => {
   // 1. Загружаем куки
   const fs = require('fs');
   const cookies = JSON.parse(fs.readFileSync('D:/PlayWright/Cookie/cookiesauth.json'));
@@ -186,7 +186,7 @@ test('[Desktop] Переход в Мои Адреса', async ({ page, context }
 
 });
 
-test('[Desktop] Выбор адреса на каталоге', async ({ page, context }) => { 
+test('[Desktop] [Главная] Выбор адреса через поиск в модальном окне с картой', async ({ page, context }) => { // по мотивам тк https://tms.yandex-team.ru/projects/yandex_eats/testcases/52704
   const fs = require('fs');
   const cookies = JSON.parse(fs.readFileSync('D:/PlayWright/Cookie/cookiesauth.json'));
   await context.addCookies(cookies);
@@ -228,6 +228,70 @@ test('[Desktop] Закрытие расширенной карточки тов�
   await page.getByTestId('ui-button').click(); // закрытие расширенной карточки товара
 
   await expect(page.getByTestId('full-card-page')).not.toBeVisible(); //проверка, что карточка закрыта
+
+  page.close()
+});
+
+test('[Desktop] Выбор фильтра в глобальном поиске', async ({ page, context }) => { 
+  const fs = require('fs');
+  const cookies = JSON.parse(fs.readFileSync('D:/PlayWright/Cookie/cookiesauth.json'));
+  await context.addCookies(cookies);
+
+  const buttonRestaraunt = page.getByRole('button', {name: 'Рестораны'})
+
+  await page.getByRole('button', { name: 'Укажите адрес доставки' }).click()
+  await page.getByTestId('address-input').fill('Ленинский проспект 37а');
+  await page.getByLabel('Ленинский проспект, 37АМосква').click();
+  await page.getByTestId('desktop-location-modal-confirm-button').click();
+
+  await page.getByPlaceholder('Найти ресторан, блюдо или товар').fill('Вода'); // ввода запроса 
+  await page.getByRole('button', {name:'Найти'}).click();
+
+  await expect(buttonRestaraunt).toHaveAttribute('aria-current', 'false');
+
+  await buttonRestaraunt.click();
+
+  await expect(buttonRestaraunt).toHaveAttribute('aria-current', 'true');
+
+  page.close()
+});
+
+test('[Desktop] [Главная] Удаление адреса из строки в модальном окне выбора адреса', async ({ page, context }) => { // по мотивам тк https://tms.yandex-team.ru/projects/yandex_eats/testcases/52706
+  const fs = require('fs');
+  const cookies = JSON.parse(fs.readFileSync('D:/PlayWright/Cookie/cookiesauth.json'));
+  await context.addCookies(cookies);
+
+  await page.getByRole('button', { name: 'Укажите адрес доставки' }).click(); // вводим адрес
+  await page.getByTestId('address-input').fill('Ленинский проспект 37а');
+  await page.getByLabel('Ленинский проспект, 37АМосква').click();
+  await page.getByTestId('desktop-location-modal-confirm-button').click();
+
+  await page.getByRole('button', { name: 'Бду адреса' }).click(); // открываем окно выбора адреса и сбрасываем выбранный адрес
+  await page.getByRole('button', { name: 'Куда доставить?' }).click();
+
+  await expect(page.getByTestId('address-input')).toHaveAttribute('value', 'Ленинский проспект, 37А'); // убеждаемся, что поле ввода адреса не пустое
+  
+  await page.getByTestId('address-input-reset').click(); // сбрасываем заполненный адрес
+
+  await page.getByTestId('address-input').toHaveAttribute('value', ''); //убеждаемся, что поле ввода адреса пустое
+
+  page.close()
+});
+
+test('[Desktop] [Поиск] Очистка инпута поиска с помощью крестика', async ({ page, context }) => { // по мотивам тк https://tms.yandex-team.ru/projects/yandex_eats/testcases/52430
+
+  const searchBar = page.locator('[id="id_1"]');
+  const buttonClear = page.getByTestId('input-clear-button');
+
+  await expect(searchBar).toHaveAttribute('value', '');
+
+  await searchBar.fill('сыр');
+
+  await expect(searchBar).toHaveAttribute('value', 'сыр');
+
+  await buttonClear.click()
+
+  await expect(searchBar).toHaveAttribute('value', '');
 
   page.close()
 });
