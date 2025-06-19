@@ -296,4 +296,19 @@ test('[Desktop] [Поиск] Очистка инпута поиска с пом�
   page.close()
 });
 
+test('[Desktop] Дерево тематик. Главная', async ({ page, context }) => { // по мотивам тк https://tms.yandex-team.ru/projects/yandex_eats/testcases/50032
+const supportButton = page.getByTitle('Служба поддержки');
+const title = page.getByText('Чем вам помочь?');
+const promocodes = page.getByText('Оплата и промокоды');
+const cooperation = page.getByText('Сотрудничество');
+
+await supportButton.click();
+
+await expect(title).toContainText('Чем вам помочь?');
+await expect(promocodes).toContainText('Оплата и промокоды');
+await expect(cooperation).toContainText('Сотрудничество');
+
+page.close()
+});
+
 });
