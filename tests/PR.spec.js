@@ -10,7 +10,7 @@ export default defineConfig({
   },
   expect: {
     // Максимальное время, которое expect() должен ждать, чтобы условие было выполнено. Тестовая Еда иногда загружается дольше дефолтных 5 секунд, из-за чего тесты падают
-    timeout: 50000
+    timeout: 15000
   },
   projects: [
     {
@@ -310,4 +310,4 @@ await expect(cooperation).toContainText('Сотрудничество');
 page.close()
 });
 
-}); // test123321
+});
